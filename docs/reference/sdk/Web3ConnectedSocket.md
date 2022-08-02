@@ -1,56 +1,73 @@
-# Socket
+# Web3ConnectedSocket
 
 **`inheritdoc`**
+
+The connected socket sdk interfaces directly with wallets
 
 ## Hierarchy
 
 - `BaseSocket`
 
-  ↳ **`Socket`**
+  ↳ **`Web3ConnectedSocket`**
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Socket.md#constructor)
+- [constructor](Web3ConnectedSocket.md#constructor)
 
 ### Properties
 
-- [client](Socket.md#client)
+- [\_provider](Web3ConnectedSocket.md#_provider)
+- [client](Web3ConnectedSocket.md#client)
 
 ### Methods
 
-- [connect](Socket.md#connect)
-- [continue](Socket.md#continue)
-- [getActiveRoutes](Socket.md#getactiveroutes)
-- [getAllQuotes](Socket.md#getallquotes)
-- [getBestQuote](Socket.md#getbestquote)
-- [getChain](Socket.md#getchain)
-- [getChains](Socket.md#getchains)
-- [getTokenList](Socket.md#gettokenlist)
-- [start](Socket.md#start)
+- [continue](Web3ConnectedSocket.md#continue)
+- [getActiveRoutes](Web3ConnectedSocket.md#getactiveroutes)
+- [getAllQuotes](Web3ConnectedSocket.md#getallquotes)
+- [getBestQuote](Web3ConnectedSocket.md#getbestquote)
+- [getChain](Web3ConnectedSocket.md#getchain)
+- [getChains](Web3ConnectedSocket.md#getchains)
+- [getTokenList](Web3ConnectedSocket.md#gettokenlist)
+- [start](Web3ConnectedSocket.md#start)
 
 ## Constructors
 
 ### constructor
 
-• **new Socket**(`options`)
+• **new Web3ConnectedSocket**(`options`, `provider`)
 
 #### Parameters
 
-| Name      | Type                                              | Description        |
-| :-------- | :------------------------------------------------ | :----------------- |
-| `options` | [`SocketOptions`](../interfaces/SocketOptions.md) | Socket sdk options |
+| Name       | Type                                              |
+| :--------- | :------------------------------------------------ |
+| `options`  | [`SocketOptions`](../interfaces/SocketOptions.md) |
+| `provider` | `Web3Provider`                                    |
 
-#### Inherited from
+#### Overrides
 
 BaseSocket.constructor
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:68](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L68)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:41](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L41)
 
 ## Properties
+
+### \_provider
+
+• `Readonly` **\_provider**: `Web3Provider`
+
+#### Overrides
+
+BaseSocket.\_provider
+
+#### Defined in
+
+[socket-v2-sdk/src/web3ConnectedSocket.ts:39](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L39)
+
+---
 
 ### client
 
@@ -80,49 +97,26 @@ BaseSocket.client
 
 ## Methods
 
-### connect
-
-▸ **connect**(`provider`): [`Web3ConnectedSocket`](Web3ConnectedSocket.md)
-
-Connect Socket to a web3 provider that will be used to execute routes
-
-#### Parameters
-
-| Name       | Type           | Description                             |
-| :--------- | :------------- | :-------------------------------------- |
-| `provider` | `Web3Provider` | The web3 provider to use as user wallet |
-
-#### Returns
-
-[`Web3ConnectedSocket`](Web3ConnectedSocket.md)
-
-#### Defined in
-
-[socket-v2-sdk/src/socket.ts:31](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socket.ts#L31)
-
----
-
 ### continue
 
-▸ **continue**(`activeRouteId`): `Promise`<`ActiveRouteGenerator`\>
+▸ **continue**(`activeRouteId`, `callbacks`): `Promise`<`void`\>
 
 Continue an active route
 
 #### Parameters
 
-| Name            | Type     | Description                                          |
-| :-------------- | :------- | :--------------------------------------------------- |
-| `activeRouteId` | `number` | The active route id of the desired route to continue |
+| Name            | Type                                                | Description                                              |
+| :-------------- | :-------------------------------------------------- | :------------------------------------------------------- |
+| `activeRouteId` | `number`                                            | The active route id of the desired route to continue     |
+| `callbacks`     | [`EventCallbacks`](../interfaces/EventCallbacks.md) | optional callbacks for different states of the execution |
 
 #### Returns
 
-`Promise`<`ActiveRouteGenerator`\>
-
-An iterator that will yield each transaction required in the route
+`Promise`<`void`\>
 
 #### Defined in
 
-[socket-v2-sdk/src/socket.ts:23](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socket.ts#L23)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:141](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L141)
 
 ---
 
@@ -292,22 +286,21 @@ BaseSocket.getTokenList
 
 ### start
 
-▸ **start**(`quote`): `Promise`<`ActiveRouteGenerator`\>
+▸ **start**(`quote`, `callbacks`): `Promise`<`number`\>
 
-Start executing a socket quote/route.
+Start executing the quote on the provider
 
 #### Parameters
 
-| Name    | Type                                          |
-| :------ | :-------------------------------------------- |
-| `quote` | [`SocketQuote`](../interfaces/SocketQuote.md) |
+| Name        | Type                                                | Description                                              |
+| :---------- | :-------------------------------------------------- | :------------------------------------------------------- |
+| `quote`     | [`SocketQuote`](../interfaces/SocketQuote.md)       | The quote to execute                                     |
+| `callbacks` | [`EventCallbacks`](../interfaces/EventCallbacks.md) | optional callbacks for different states of the execution |
 
 #### Returns
 
-`Promise`<`ActiveRouteGenerator`\>
-
-An iterator that will yield each transaction required in the route
+`Promise`<`number`\>
 
 #### Defined in
 
-[socket-v2-sdk/src/socket.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socket.ts#L14)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:130](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L130)

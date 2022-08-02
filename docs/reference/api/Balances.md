@@ -27,12 +27,12 @@
 
 #### Parameters
 
-| Name                             | Type     | Description                                                     |
-| :------------------------------- | :------- | :-------------------------------------------------------------- |
-| `__namedParameters`              | `Object` | -                                                               |
-| `__namedParameters.chainId`      | `string` | ID of chain, e.g Ethereum Mainnet = 1                           |
-| `__namedParameters.tokenAddress` | `string` | Token contract address on network, e.g USDC on Ethereum Mainnet |
-| `__namedParameters.userAddress`  | `string` | Address of the user                                             |
+| Name                             | Type                             | Description                                                     |
+| :------------------------------- | :------------------------------- | :-------------------------------------------------------------- |
+| `__namedParameters`              | `Object`                         | -                                                               |
+| `__namedParameters.chainId`      | [`ChainId`](../enums/ChainId.md) | ID of chain, e.g Ethereum Mainnet = 1                           |
+| `__namedParameters.tokenAddress` | `string`                         | Token contract address on network, e.g USDC on Ethereum Mainnet |
+| `__namedParameters.userAddress`  | `string`                         | Address of the user                                             |
 
 #### Returns
 
@@ -42,7 +42,7 @@ TokenBalanceReponseDTO Returns the balance of the token on any given chain
 
 #### Defined in
 
-[src/client/services/Balances.ts:30](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Balances.ts#L30)
+[socket-v2-sdk/src/client/services/Balances.ts:31](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Balances.ts#L31)
 
 ---
 
@@ -67,4 +67,4 @@ Balance Returns the balance of all tokens for a user address on all supported ch
 
 #### Defined in
 
-[src/client/services/Balances.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Balances.ts#L13)
+[socket-v2-sdk/src/client/services/Balances.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Balances.ts#L14)

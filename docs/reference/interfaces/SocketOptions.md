@@ -20,19 +20,19 @@ The socket api key
 
 #### Defined in
 
-[src/types.ts:38](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/types.ts#L38)
+[socket-v2-sdk/src/types.ts:34](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L34)
 
 ---
 
 ### defaultQuotePreferences
 
-• `Optional` **defaultQuotePreferences**: `QuotePreferences`
+• `Optional` **defaultQuotePreferences**: [`QuotePreferences`](QuotePreferences.md)
 
 The preferences used when retrieving quotes from the api
 
 #### Defined in
 
-[src/types.ts:46](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/types.ts#L46)
+[socket-v2-sdk/src/types.ts:38](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L38)
 
 ---
 
@@ -44,4 +44,4 @@ How often in ms to poll for status updates when checking transactions
 
 #### Defined in
 
-[src/types.ts:42](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/types.ts#L42)
+[socket-v2-sdk/src/types.ts:36](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L36)

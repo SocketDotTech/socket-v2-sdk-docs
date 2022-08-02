@@ -1,5 +1,56 @@
 # Types
 
+## Table of contents
+
+### Enumerations
+
+- [ActiveRouteStatus](enums/ActiveRouteStatus.md)
+- [BridgeErrorStatus](enums/BridgeErrorStatus.md)
+- [BridgeName](enums/BridgeName.md)
+- [ChainId](enums/ChainId.md)
+- [PrepareActiveRouteStatus](enums/PrepareActiveRouteStatus.md)
+- [SortOptions](enums/SortOptions.md)
+- [TxStatus](enums/TxStatus.md)
+- [TxType](enums/TxType.md)
+- [UserTxType](enums/UserTxType.md)
+
+### Classes
+
+- [ApiError](client/ApiError.md)
+- [Approvals](api/Approvals.md)
+- [Balances](api/Balances.md)
+- [CancelError](client/CancelError.md)
+- [CancelablePromise](client/../client/CancelablePromise.md)
+- [Chain](sdk/Chain.md)
+- [Path](sdk/Path.md)
+- [Quotes](api/Quotes.md)
+- [Routes](api/Routes.md)
+- [Server](api/Server.md)
+- [Socket](sdk/Socket.md)
+- [SocketTx](sdk/SocketTx.md)
+- [Supported](api/Supported.md)
+- [TokenList](sdk/TokenList.md)
+- [TokenLists](api/TokenLists.md)
+- [Web3ConnectedSocket](sdk/Web3ConnectedSocket.md)
+
+### Interfaces
+
+- [ActiveRoutesRequest](interfaces/ActiveRoutesRequest.md)
+- [AddEthereumChainParameters](interfaces/AddEthereumChainParameters.md)
+- [EventCallbacks](interfaces/EventCallbacks.md)
+- [NextTxResponse](interfaces/NextTxResponse.md)
+- [QuoteParams](interfaces/QuoteParams.md)
+- [QuotePreferences](interfaces/QuotePreferences.md)
+- [QuoteRequest](interfaces/QuoteRequest.md)
+- [RefuelData](interfaces/RefuelData.md)
+- [SocketOptions](interfaces/SocketOptions.md)
+- [SocketPreferences](interfaces/SocketPreferences.md)
+- [SocketQuote](interfaces/SocketQuote.md)
+- [TokenListRequest](interfaces/TokenListRequest.md)
+
+### Type Aliases
+
+- [ActiveRouteOutputDTO](types.md#activerouteoutputdto)
 - [ActiveRouteResponse](types.md#activerouteresponse)
 - [ActiveRoutesOutputDTO](types.md#activeroutesoutputdto)
 - [ApprovalData](types.md#approvaldata)
@@ -8,30 +59,39 @@
 - [Balance](types.md#balance)
 - [BalanceResult](types.md#balanceresult)
 - [BridgeDetails](types.md#bridgedetails)
+- [BridgeRouteErrors](types.md#bridgerouteerrors)
 - [BridgeStatusResponse](types.md#bridgestatusresponse)
 - [BridgeStatusResponseDTO](types.md#bridgestatusresponsedto)
 - [ChainDetails](types.md#chaindetails)
 - [ChainGasBalances](types.md#chaingasbalances)
+- [ChainSwitchDoneCallback](types.md#chainswitchdonecallback)
+- [Dexes](types.md#dexes)
+- [GasFee](types.md#gasfee)
 - [GasPriceResponseDTO](types.md#gaspriceresponsedto)
 - [GasTokenDetails](types.md#gastokendetails)
 - [HealthResponseDTO](types.md#healthresponsedto)
 - [MinGasBalances](types.md#mingasbalances)
 - [NextTxOutputDTO](types.md#nexttxoutputdto)
 - [OpenAPIConfig](types.md#openapiconfig)
+- [Quote](types.md#quote)
 - [QuoteOutputDTO](types.md#quoteoutputdto)
 - [Route](types.md#route)
 - [RouteStatusOutputDTO](types.md#routestatusoutputdto)
 - [SingleTxDTO](types.md#singletxdto)
 - [SingleTxOutputDTO](types.md#singletxoutputdto)
 - [SingleTxResponse](types.md#singletxresponse)
+- [SocketTxDoneCallback](types.md#sockettxdonecallback)
 - [StartActiveRouteInputDTO](types.md#startactiverouteinputdto)
+- [Step](types.md#step)
 - [SupportedBridgesOutputDTO](types.md#supportedbridgesoutputdto)
 - [SupportedChainsOutputDTO](types.md#supportedchainsoutputdto)
-- [TokenAsset](types.md#tokenasset)
+- [Token](types.md#token)
 - [TokenBalanceReponseDTO](types.md#tokenbalancereponsedto)
 - [TokenListOutputDTO](types.md#tokenlistoutputdto)
 - [TokenPriceResponseDTO](types.md#tokenpriceresponsedto)
 - [TransactionReceiptResponseDTO](types.md#transactionreceiptresponsedto)
+- [TxDoneCallback](types.md#txdonecallback)
+- [UserTx](types.md#usertx)
 
 ### Variables
 
@@ -39,34 +99,51 @@
 
 ## Type Aliases
 
+### ActiveRouteOutputDTO
+
+Ƭ **ActiveRouteOutputDTO**: `Object`
+
+#### Type declaration
+
+| Name      | Type                                                  | Description             |
+| :-------- | :---------------------------------------------------- | :---------------------- |
+| `result`  | [`ActiveRouteResponse`](types.md#activerouteresponse) | -                       |
+| `success` | `boolean`                                             | Status of API response. |
+
+#### Defined in
+
+[socket-v2-sdk/src/client/models/ActiveRouteOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRouteOutputDTO.ts#L3)
+
+---
+
 ### ActiveRouteResponse
 
 Ƭ **ActiveRouteResponse**: `Object`
 
 #### Type declaration
 
-| Name                 | Type                                | Description                                   |
-| :------------------- | :---------------------------------- | :-------------------------------------------- |
-| `activeRouteId`      | `number`                            | Id of the Active Route.                       |
-| `createdAt`          | `string`                            | Timestamp of Route start.                     |
-| `currentUserTxIndex` | `number`                            | Index of current tx in userTxs array.         |
-| `fromAmount`         | `string`                            | Amount of sending tokens.                     |
-| `fromAsset`          | [`TokenAsset`](types.md#tokenasset) | -                                             |
-| `fromAssetAddress`   | `string`                            | Address of token on source chain.             |
-| `fromChainId`        | `number`                            | Id of source chain.                           |
-| `routeStatus`        | `ActiveRouteStatus`                 | Status of the Active Route.                   |
-| `toAmount`           | `string`                            | Approximate amount of receiving tokens.       |
-| `toAsset`            | [`TokenAsset`](types.md#tokenasset) | -                                             |
-| `toAssetAddress`     | `string`                            | Address of token on destination chain.        |
-| `toChainId`          | `number`                            | Id of destination chain.                      |
-| `totalUserTx`        | `number`                            | Total number of txs required in Active Route. |
-| `updatedAt`          | `string`                            | Timestamp of last route update.               |
-| `userAddress`        | `string`                            | Address of user doing the Active Route.       |
-| `userTxs`            | `UserTx`[]                          | Array of user txs.                            |
+| Name                 | Type                                              | Description                                   |
+| :------------------- | :------------------------------------------------ | :-------------------------------------------- |
+| `activeRouteId`      | `number`                                          | Id of the Active Route.                       |
+| `createdAt`          | `string`                                          | Timestamp of Route start.                     |
+| `currentUserTxIndex` | `number`                                          | Index of current tx in userTxs array.         |
+| `fromAmount`         | `string`                                          | Amount of sending tokens.                     |
+| `fromAsset`          | [`Token`](types.md#token)                         | -                                             |
+| `fromAssetAddress`   | `string`                                          | Address of token on source chain.             |
+| `fromChainId`        | `number`                                          | Id of source chain.                           |
+| `routeStatus`        | [`ActiveRouteStatus`](enums/ActiveRouteStatus.md) | Status of the Active Route.                   |
+| `toAmount`           | `string`                                          | Approximate amount of receiving tokens.       |
+| `toAsset`            | [`Token`](types.md#token)                         | -                                             |
+| `toAssetAddress`     | `string`                                          | Address of token on destination chain.        |
+| `toChainId`          | `number`                                          | Id of destination chain.                      |
+| `totalUserTx`        | `number`                                          | Total number of txs required in Active Route. |
+| `updatedAt`          | `string`                                          | Timestamp of last route update.               |
+| `userAddress`        | `string`                                          | Address of user doing the Active Route.       |
+| `userTxs`            | [`UserTx`](types.md#usertx)[]                     | Array of user txs.                            |
 
 #### Defined in
 
-[src/client/models/ActiveRouteResponse.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/ActiveRouteResponse.ts#L9)
+[socket-v2-sdk/src/client/models/ActiveRouteResponse.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRouteResponse.ts#L9)
 
 ---
 
@@ -88,7 +165,7 @@
 
 #### Defined in
 
-[src/client/models/ActiveRoutesOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/ActiveRoutesOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/ActiveRoutesOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesOutputDTO.ts#L3)
 
 ---
 
@@ -107,7 +184,7 @@
 
 #### Defined in
 
-[src/client/models/ApprovalData.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/ApprovalData.ts#L1)
+[socket-v2-sdk/src/client/models/ApprovalData.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ApprovalData.ts#L1)
 
 ---
 
@@ -126,7 +203,7 @@
 
 #### Defined in
 
-[src/client/models/ApprovalOutputDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/ApprovalOutputDTO.ts#L1)
+[socket-v2-sdk/src/client/models/ApprovalOutputDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ApprovalOutputDTO.ts#L1)
 
 ---
 
@@ -146,7 +223,7 @@
 
 #### Defined in
 
-[src/client/models/ApprovalTxOutputDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/ApprovalTxOutputDTO.ts#L1)
+[socket-v2-sdk/src/client/models/ApprovalTxOutputDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ApprovalTxOutputDTO.ts#L1)
 
 ---
 
@@ -163,7 +240,7 @@
 
 #### Defined in
 
-[src/client/models/Balance.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/Balance.ts#L3)
+[socket-v2-sdk/src/client/models/Balance.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/Balance.ts#L3)
 
 ---
 
@@ -173,20 +250,20 @@
 
 #### Type declaration
 
-| Name       | Type     |
-| :--------- | :------- |
-| `address`  | `string` |
-| `amount`   | `number` |
-| `chainId`  | `number` |
-| `currency` | `string` |
-| `decimals` | `number` |
-| `name`     | `string` |
-| `price`    | `number` |
-| `symbol`   | `string` |
+| Name       | Type                          |
+| :--------- | :---------------------------- |
+| `address`  | `string`                      |
+| `amount`   | `number`                      |
+| `chainId`  | [`ChainId`](enums/ChainId.md) |
+| `currency` | `string`                      |
+| `decimals` | `number`                      |
+| `name`     | `string`                      |
+| `price`    | `number`                      |
+| `symbol`   | `string`                      |
 
 #### Defined in
 
-[src/client/models/BalanceResult.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/BalanceResult.ts#L1)
+[socket-v2-sdk/src/client/models/BalanceResult.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/BalanceResult.ts#L3)
 
 ---
 
@@ -196,16 +273,26 @@
 
 #### Type declaration
 
-| Name          | Type         | Description                          |
-| :------------ | :----------- | :----------------------------------- |
-| `displayName` | `string`     | Display name of bridge.              |
-| `icon?`       | `string`     | URL for icon of bridge.              |
-| `name`        | `BridgeName` | Name of bridge.                      |
-| `serviceTime` | `number`     | Approx time for bridging in seconds. |
+| Name          | Type                                | Description                          |
+| :------------ | :---------------------------------- | :----------------------------------- |
+| `displayName` | `string`                            | Display name of bridge.              |
+| `icon?`       | `string`                            | URL for icon of bridge.              |
+| `name`        | [`BridgeName`](enums/BridgeName.md) | Name of bridge.                      |
+| `serviceTime` | `number`                            | Approx time for bridging in seconds. |
 
 #### Defined in
 
-[src/client/models/BridgeDetails.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/BridgeDetails.ts#L1)
+[socket-v2-sdk/src/client/models/BridgeDetails.ts:5](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeDetails.ts#L5)
+
+---
+
+### BridgeRouteErrors
+
+Ƭ **BridgeRouteErrors**: { [bridge in BridgeName]?: Object }
+
+#### Defined in
+
+[socket-v2-sdk/src/client/models/BridgeRouteErrors.ts:8](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeRouteErrors.ts#L8)
 
 ---
 
@@ -215,18 +302,18 @@
 
 #### Type declaration
 
-| Name                          | Type       | Description                                       |
-| :---------------------------- | :--------- | :------------------------------------------------ |
-| `destinationTransactionHash?` | `string`   | Destination Transaction hash.                     |
-| `destinationTxStatus`         | `TxStatus` | Status of destination transaction while bridging. |
-| `fromChainId`                 | `number`   | Source Chain Id                                   |
-| `sourceTx`                    | `string`   | Source Transaction.                               |
-| `sourceTxStatus`              | `TxStatus` | Status of source transaction while bridging.      |
-| `toChainId`                   | `number`   | Destination Chain Id.                             |
+| Name                          | Type                            | Description                                       |
+| :---------------------------- | :------------------------------ | :------------------------------------------------ |
+| `destinationTransactionHash?` | `string`                        | Destination Transaction hash.                     |
+| `destinationTxStatus`         | [`TxStatus`](enums/TxStatus.md) | Status of destination transaction while bridging. |
+| `fromChainId`                 | `number`                        | Source Chain Id                                   |
+| `sourceTx`                    | `string`                        | Source Transaction.                               |
+| `sourceTxStatus`              | [`TxStatus`](enums/TxStatus.md) | Status of source transaction while bridging.      |
+| `toChainId`                   | `number`                        | Destination Chain Id.                             |
 
 #### Defined in
 
-[src/client/models/BridgeStatusResponse.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/BridgeStatusResponse.ts#L3)
+[socket-v2-sdk/src/client/models/BridgeStatusResponse.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeStatusResponse.ts#L3)
 
 ---
 
@@ -243,7 +330,7 @@
 
 #### Defined in
 
-[src/client/models/BridgeStatusResponseDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/BridgeStatusResponseDTO.ts#L3)
+[socket-v2-sdk/src/client/models/BridgeStatusResponseDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeStatusResponseDTO.ts#L3)
 
 ---
 
@@ -255,7 +342,7 @@
 
 | Name               | Type                                          | Description                                                        |
 | :----------------- | :-------------------------------------------- | :----------------------------------------------------------------- |
-| `chainId`          | `number`                                      | Id of chain.                                                       |
+| `chainId`          | [`ChainId`](enums/ChainId.md)                 | Id of chain.                                                       |
 | `currency`         | [`GasTokenDetails`](types.md#gastokendetails) | -                                                                  |
 | `explorers`        | `string`[]                                    | -                                                                  |
 | `icon`             | `string`                                      | URL for icon of chain.                                             |
@@ -267,7 +354,7 @@
 
 #### Defined in
 
-[src/client/models/ChainDetails.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/ChainDetails.ts#L3)
+[socket-v2-sdk/src/client/models/ChainDetails.ts:4](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ChainDetails.ts#L4)
 
 ---
 
@@ -277,7 +364,60 @@
 
 #### Defined in
 
-[src/client/models/ChainGasBalances.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/ChainGasBalances.ts#L1)
+[socket-v2-sdk/src/client/models/ChainGasBalances.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ChainGasBalances.ts#L1)
+
+---
+
+### ChainSwitchDoneCallback
+
+Ƭ **ChainSwitchDoneCallback**: (`chainId`: [`ChainId`](enums/ChainId.md)) => `void`
+
+#### Type declaration
+
+▸ (`chainId`): `void`
+
+##### Parameters
+
+| Name      | Type                          |
+| :-------- | :---------------------------- |
+| `chainId` | [`ChainId`](enums/ChainId.md) |
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[socket-v2-sdk/src/web3ConnectedSocket.ts:23](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L23)
+
+---
+
+### Dexes
+
+Ƭ **Dexes**: `Middleware.OneInch` \| `Middleware.ZeroX`
+
+#### Defined in
+
+[socket-v2-sdk/src/client/models/Dexes.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/Dexes.ts#L3)
+
+---
+
+### GasFee
+
+Ƭ **GasFee**: `Object`
+
+#### Type declaration
+
+| Name        | Type                      | Description                                 |
+| :---------- | :------------------------ | :------------------------------------------ |
+| `asset`     | [`Token`](types.md#token) | Gas token details.                          |
+| `feesInUsd` | `number`                  | USD value of gas fees at current gas price. |
+| `gasAmount` | `string`                  | Estimated Amount of gas token will be used  |
+| `gasLimit`  | `number`                  | Approx Gas Limit of the transaction.        |
+
+#### Defined in
+
+[socket-v2-sdk/src/client/models/GasFee.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/GasFee.ts#L3)
 
 ---
 
@@ -287,25 +427,25 @@
 
 #### Type declaration
 
-| Name                              | Type                                                                                                                                                                                                                                                            |
-| :-------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `result`                          | { `chainId?`: `number` ; `fast?`: { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` } ; `normal?`: { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` } ; `slow?`: { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` } ; `txType?`: `number` } |
-| `result.chainId?`                 | `number`                                                                                                                                                                                                                                                        |
-| `result.fast?`                    | { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` }                                                                                                                                                                                                       |
-| `result.fast.estimatedSeconds?`   | `number`                                                                                                                                                                                                                                                        |
-| `result.fast.gasPrice?`           | `number`                                                                                                                                                                                                                                                        |
-| `result.normal?`                  | { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` }                                                                                                                                                                                                       |
-| `result.normal.estimatedSeconds?` | `number`                                                                                                                                                                                                                                                        |
-| `result.normal.gasPrice?`         | `number`                                                                                                                                                                                                                                                        |
-| `result.slow?`                    | { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` }                                                                                                                                                                                                       |
-| `result.slow.estimatedSeconds?`   | `number`                                                                                                                                                                                                                                                        |
-| `result.slow.gasPrice?`           | `number`                                                                                                                                                                                                                                                        |
-| `result.txType?`                  | `number`                                                                                                                                                                                                                                                        |
-| `success`                         | `boolean`                                                                                                                                                                                                                                                       |
+| Name                              | Type                                                                                                                                                                                                                                                                                 |
+| :-------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `result`                          | { `chainId?`: [`ChainId`](enums/ChainId.md) ; `fast?`: { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` } ; `normal?`: { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` } ; `slow?`: { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` } ; `txType?`: `number` } |
+| `result.chainId?`                 | [`ChainId`](enums/ChainId.md)                                                                                                                                                                                                                                                        |
+| `result.fast?`                    | { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` }                                                                                                                                                                                                                            |
+| `result.fast.estimatedSeconds?`   | `number`                                                                                                                                                                                                                                                                             |
+| `result.fast.gasPrice?`           | `number`                                                                                                                                                                                                                                                                             |
+| `result.normal?`                  | { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` }                                                                                                                                                                                                                            |
+| `result.normal.estimatedSeconds?` | `number`                                                                                                                                                                                                                                                                             |
+| `result.normal.gasPrice?`         | `number`                                                                                                                                                                                                                                                                             |
+| `result.slow?`                    | { `estimatedSeconds?`: `number` ; `gasPrice?`: `number` }                                                                                                                                                                                                                            |
+| `result.slow.estimatedSeconds?`   | `number`                                                                                                                                                                                                                                                                             |
+| `result.slow.gasPrice?`           | `number`                                                                                                                                                                                                                                                                             |
+| `result.txType?`                  | `number`                                                                                                                                                                                                                                                                             |
+| `success`                         | `boolean`                                                                                                                                                                                                                                                                            |
 
 #### Defined in
 
-[src/client/models/GasPriceResponseDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/GasPriceResponseDTO.ts#L1)
+[socket-v2-sdk/src/client/models/GasPriceResponseDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/GasPriceResponseDTO.ts#L3)
 
 ---
 
@@ -326,7 +466,7 @@
 
 #### Defined in
 
-[src/client/models/GasTokenDetails.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/GasTokenDetails.ts#L1)
+[socket-v2-sdk/src/client/models/GasTokenDetails.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/GasTokenDetails.ts#L1)
 
 ---
 
@@ -342,7 +482,7 @@
 
 #### Defined in
 
-[src/client/models/HealthResponseDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/HealthResponseDTO.ts#L1)
+[socket-v2-sdk/src/client/models/HealthResponseDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/HealthResponseDTO.ts#L1)
 
 ---
 
@@ -352,7 +492,7 @@
 
 #### Defined in
 
-[src/client/models/MinGasBalances.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/MinGasBalances.ts#L1)
+[socket-v2-sdk/src/client/models/MinGasBalances.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/MinGasBalances.ts#L1)
 
 ---
 
@@ -369,7 +509,7 @@
 
 #### Defined in
 
-[src/client/models/NextTxOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/NextTxOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxOutputDTO.ts#L3)
 
 ---
 
@@ -394,7 +534,29 @@
 
 #### Defined in
 
-[src/client/core/OpenAPI.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/OpenAPI.ts#L6)
+[socket-v2-sdk/src/client/core/OpenAPI.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/core/OpenAPI.ts#L6)
+
+---
+
+### Quote
+
+Ƭ **Quote**: `Object`
+
+#### Type declaration
+
+| Name                | Type                                              |
+| :------------------ | :------------------------------------------------ |
+| `bridgeRouteErrors` | [`BridgeRouteErrors`](types.md#bridgerouteerrors) |
+| `fromAsset?`        | [`Token`](types.md#token)                         |
+| `fromChainId?`      | `number`                                          |
+| `refuel?`           | [`RefuelData`](interfaces/RefuelData.md)          |
+| `routes?`           | [`Route`](types.md#route)[]                       |
+| `toAsset?`          | [`Token`](types.md#token)                         |
+| `toChainId?`        | `number`                                          |
+
+#### Defined in
+
+[socket-v2-sdk/src/client/models/QuoteOutputDTO.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteOutputDTO.ts#L6)
 
 ---
 
@@ -404,14 +566,14 @@
 
 #### Type declaration
 
-| Name      | Type      | Description    |
-| :-------- | :-------- | :------------- |
-| `result`  | `Quote`   | -              |
-| `success` | `boolean` | Status of API. |
+| Name      | Type                      | Description    |
+| :-------- | :------------------------ | :------------- |
+| `result`  | [`Quote`](types.md#quote) | -              |
+| `success` | `boolean`                 | Status of API. |
 
 #### Defined in
 
-[src/client/models/QuoteOutputDTO.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/QuoteOutputDTO.ts#L12)
+[socket-v2-sdk/src/client/models/QuoteOutputDTO.ts:16](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteOutputDTO.ts#L16)
 
 ---
 
@@ -433,12 +595,12 @@
 | `toAmount`           | `string`                                        | Approximate receiving token amount.                                |
 | `totalGasFeesInUsd`  | `number`                                        | Combined USD gas fees for all transactions in the route.           |
 | `totalUserTx`        | `number`                                        | Total number of transactions for the route.                        |
-| `usedBridgeNames`    | `BridgeName`[]                                  | Array of bridges used in the route                                 |
-| `userTxs`            | `UserTx`[]                                      | Array of user transactions.                                        |
+| `usedBridgeNames`    | [`BridgeName`](enums/BridgeName.md)[]           | Array of bridges used in the route                                 |
+| `userTxs`            | [`UserTx`](types.md#usertx)[]                   | Array of user transactions.                                        |
 
 #### Defined in
 
-[src/client/models/Route.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/Route.ts#L6)
+[socket-v2-sdk/src/client/models/Route.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/Route.ts#L6)
 
 ---
 
@@ -448,14 +610,14 @@
 
 #### Type declaration
 
-| Name     | Type                       | Description    |
-| :------- | :------------------------- | :------------- |
-| `result` | `PrepareActiveRouteStatus` | -              |
-| `status` | `boolean`                  | Status of API. |
+| Name     | Type                                                            | Description    |
+| :------- | :-------------------------------------------------------------- | :------------- |
+| `result` | [`PrepareActiveRouteStatus`](enums/PrepareActiveRouteStatus.md) | -              |
+| `status` | `boolean`                                                       | Status of API. |
 
 #### Defined in
 
-[src/client/models/RouteStatusOutputDTO.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/RouteStatusOutputDTO.ts#L12)
+[socket-v2-sdk/src/client/models/RouteStatusOutputDTO.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/RouteStatusOutputDTO.ts#L12)
 
 ---
 
@@ -465,13 +627,14 @@
 
 #### Type declaration
 
-| Name    | Type                      |
-| :------ | :------------------------ |
-| `route` | [`Route`](types.md#route) |
+| Name     | Type                                     |
+| :------- | :--------------------------------------- |
+| `refuel` | [`RefuelData`](interfaces/RefuelData.md) |
+| `route`  | [`Route`](types.md#route)                |
 
 #### Defined in
 
-[src/client/models/SingleTxDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/SingleTxDTO.ts#L3)
+[socket-v2-sdk/src/client/models/SingleTxDTO.ts:4](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SingleTxDTO.ts#L4)
 
 ---
 
@@ -488,7 +651,7 @@
 
 #### Defined in
 
-[src/client/models/SingleTxOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/SingleTxOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/SingleTxOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SingleTxOutputDTO.ts#L3)
 
 ---
 
@@ -501,17 +664,41 @@
 | Name           | Type                                              | Description                                      |
 | :------------- | :------------------------------------------------ | :----------------------------------------------- |
 | `approvalData` | [`ApprovalData`](types.md#approvaldata) \| `null` | -                                                |
-| `chainId`      | `ChainId`                                         | Id of chain where transaction has to be sent.    |
+| `chainId`      | [`ChainId`](enums/ChainId.md)                     | Id of chain where transaction has to be sent.    |
 | `totalUserTx`  | `number`                                          | Total number of transactions in Active Route.    |
 | `txData`       | `string`                                          | Calldata for transaction.                        |
 | `txTarget`     | `string`                                          | Address to which transaction has to be sent.     |
-| `txType`       | `TxType`                                          | Type of transaction.                             |
-| `userTxType`   | `UserTxType`                                      | Type of user transaction.                        |
+| `txType`       | [`TxType`](enums/TxType.md)                       | Type of transaction.                             |
+| `userTxType`   | [`UserTxType`](enums/UserTxType.md)               | Type of user transaction.                        |
 | `value`        | `string`                                          | Native token amount to be sent with transaction. |
 
 #### Defined in
 
-[src/client/models/SingleTxResponse.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/SingleTxResponse.ts#L6)
+[socket-v2-sdk/src/client/models/SingleTxResponse.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SingleTxResponse.ts#L6)
+
+---
+
+### SocketTxDoneCallback
+
+Ƭ **SocketTxDoneCallback**: (`tx`: [`SocketTx`](sdk/SocketTx.md)) => `void`
+
+#### Type declaration
+
+▸ (`tx`): `void`
+
+##### Parameters
+
+| Name | Type                          |
+| :--- | :---------------------------- |
+| `tx` | [`SocketTx`](sdk/SocketTx.md) |
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[socket-v2-sdk/src/web3ConnectedSocket.ts:21](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L21)
 
 ---
 
@@ -521,18 +708,44 @@
 
 #### Type declaration
 
-| Name                     | Type                      | Description                                                                                                                                                                   |
-| :----------------------- | :------------------------ | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `fromAssetAddress`       | `string`                  | Token address on source chain.                                                                                                                                                |
-| `fromChainId`            | `number`                  | Chain id of source chain.                                                                                                                                                     |
-| `includeFirstTxDetails?` | `boolean`                 | Include the tx details for the first user transaction. If true it will return the txData txType etc. If false, it will only return the active route Id of the selected route. |
-| `route`                  | [`Route`](types.md#route) | Selected route by the user to bridge tokens from one chain to another.                                                                                                        |
-| `toAssetAddress`         | `string`                  | Token address on destination chain.                                                                                                                                           |
-| `toChainId`              | `number`                  | Chain id of destination chain.                                                                                                                                                |
+| Name                     | Type                                     | Description                                                                                                                                                                   |
+| :----------------------- | :--------------------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `fromAssetAddress`       | `string`                                 | Token address on source chain.                                                                                                                                                |
+| `fromChainId`            | `number`                                 | Chain id of source chain.                                                                                                                                                     |
+| `includeFirstTxDetails?` | `boolean`                                | Include the tx details for the first user transaction. If true it will return the txData txType etc. If false, it will only return the active route Id of the selected route. |
+| `refuel?`                | [`RefuelData`](interfaces/RefuelData.md) | Refuel data for if the user have selected bridge with gas option                                                                                                              |
+| `route`                  | [`Route`](types.md#route)                | Selected route by the user to bridge tokens from one chain to another.                                                                                                        |
+| `toAssetAddress`         | `string`                                 | Token address on destination chain.                                                                                                                                           |
+| `toChainId`              | `number`                                 | Chain id of destination chain.                                                                                                                                                |
 
 #### Defined in
 
-[src/client/models/StartActiveRouteInputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/StartActiveRouteInputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/StartActiveRouteInputDTO.ts:4](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/StartActiveRouteInputDTO.ts#L4)
+
+---
+
+### Step
+
+Ƭ **Step**: `Object`
+
+#### Type declaration
+
+| Name          | Type                                      |
+| :------------ | :---------------------------------------- |
+| `fromAmount`  | `string`                                  |
+| `fromAsset`   | [`Token`](types.md#token)                 |
+| `fromChainId` | `number`                                  |
+| `gasFees`     | [`GasFee`](types.md#gasfee)               |
+| `protocol`    | [`BridgeDetails`](types.md#bridgedetails) |
+| `serviceTime` | `number`                                  |
+| `toAmount`    | `string`                                  |
+| `toAsset`     | [`Token`](types.md#token)                 |
+| `toChainId`   | `number`                                  |
+| `type`        | `string`                                  |
+
+#### Defined in
+
+[socket-v2-sdk/src/client/models/UserTx.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/UserTx.ts#L9)
 
 ---
 
@@ -549,7 +762,7 @@
 
 #### Defined in
 
-[src/client/models/SupportedBridgesOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/SupportedBridgesOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/SupportedBridgesOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SupportedBridgesOutputDTO.ts#L3)
 
 ---
 
@@ -566,30 +779,30 @@
 
 #### Defined in
 
-[src/client/models/SupportedChainsOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/SupportedChainsOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/SupportedChainsOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SupportedChainsOutputDTO.ts#L3)
 
 ---
 
-### TokenAsset
+### Token
 
-Ƭ **TokenAsset**: `Object`
+Ƭ **Token**: `Object`
 
 #### Type declaration
 
-| Name               | Type     | Description               |
-| :----------------- | :------- | :------------------------ |
-| `address`          | `string` | Address of token.         |
-| `chainAgnosticId?` | `string` | Unique Id over all chains |
-| `chainId`          | `number` | Chain id of the token     |
-| `decimals?`        | `number` | Decimal used for token.   |
-| `icon?`            | `string` | URL for icon of token.    |
-| `logoURI?`         | `string` | URL for icon of token.    |
-| `name?`            | `string` | Name of token.            |
-| `symbol`           | `string` | Symbol of token.          |
+| Name               | Type                          | Description               |
+| :----------------- | :---------------------------- | :------------------------ |
+| `address`          | `string`                      | Address of token.         |
+| `chainAgnosticId?` | `string` \| `null`            | Unique Id over all chains |
+| `chainId`          | [`ChainId`](enums/ChainId.md) | Chain id of the token     |
+| `decimals?`        | `number`                      | Decimal used for token.   |
+| `icon?`            | `string`                      | URL for icon of token.    |
+| `logoURI?`         | `string`                      | URL for icon of token.    |
+| `name?`            | `string`                      | Name of token.            |
+| `symbol`           | `string`                      | Symbol of token.          |
 
 #### Defined in
 
-[src/client/models/TokenAsset.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/TokenAsset.ts#L1)
+[socket-v2-sdk/src/client/models/Token.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/Token.ts#L3)
 
 ---
 
@@ -599,22 +812,22 @@
 
 #### Type declaration
 
-| Name                   | Type                                                                                                                                                                                         |
-| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `result`               | { `balance?`: `string` ; `chainId?`: `number` ; `decimals?`: `number` ; `icon?`: `string` ; `name?`: `string` ; `symbol?`: `string` ; `tokenAddress?`: `string` ; `userAddress?`: `string` } |
-| `result.balance?`      | `string`                                                                                                                                                                                     |
-| `result.chainId?`      | `number`                                                                                                                                                                                     |
-| `result.decimals?`     | `number`                                                                                                                                                                                     |
-| `result.icon?`         | `string`                                                                                                                                                                                     |
-| `result.name?`         | `string`                                                                                                                                                                                     |
-| `result.symbol?`       | `string`                                                                                                                                                                                     |
-| `result.tokenAddress?` | `string`                                                                                                                                                                                     |
-| `result.userAddress?`  | `string`                                                                                                                                                                                     |
-| `success`              | `boolean`                                                                                                                                                                                    |
+| Name                   | Type                                                                                                                                                                                                              |
+| :--------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `result`               | { `balance?`: `string` ; `chainId?`: [`ChainId`](enums/ChainId.md) ; `decimals?`: `number` ; `icon?`: `string` ; `name?`: `string` ; `symbol?`: `string` ; `tokenAddress?`: `string` ; `userAddress?`: `string` } |
+| `result.balance?`      | `string`                                                                                                                                                                                                          |
+| `result.chainId?`      | [`ChainId`](enums/ChainId.md)                                                                                                                                                                                     |
+| `result.decimals?`     | `number`                                                                                                                                                                                                          |
+| `result.icon?`         | `string`                                                                                                                                                                                                          |
+| `result.name?`         | `string`                                                                                                                                                                                                          |
+| `result.symbol?`       | `string`                                                                                                                                                                                                          |
+| `result.tokenAddress?` | `string`                                                                                                                                                                                                          |
+| `result.userAddress?`  | `string`                                                                                                                                                                                                          |
+| `success`              | `boolean`                                                                                                                                                                                                         |
 
 #### Defined in
 
-[src/client/models/TokenBalanceReponseDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/TokenBalanceReponseDTO.ts#L1)
+[socket-v2-sdk/src/client/models/TokenBalanceReponseDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/TokenBalanceReponseDTO.ts#L3)
 
 ---
 
@@ -624,14 +837,14 @@
 
 #### Type declaration
 
-| Name      | Type                                  | Description    |
-| :-------- | :------------------------------------ | :------------- |
-| `result`  | [`TokenAsset`](types.md#tokenasset)[] | -              |
-| `success` | `boolean`                             | Status of API. |
+| Name      | Type                        | Description    |
+| :-------- | :-------------------------- | :------------- |
+| `result`  | [`Token`](types.md#token)[] | -              |
+| `success` | `boolean`                   | Status of API. |
 
 #### Defined in
 
-[src/client/models/TokenListOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/TokenListOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/TokenListOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/TokenListOutputDTO.ts#L3)
 
 ---
 
@@ -641,18 +854,18 @@
 
 #### Type declaration
 
-| Name                   | Type                                                                                                   |
-| :--------------------- | :----------------------------------------------------------------------------------------------------- |
-| `result`               | { `chainId?`: `number` ; `currency?`: `string` ; `tokenAddress?`: `string` ; `tokenPrice?`: `number` } |
-| `result.chainId?`      | `number`                                                                                               |
-| `result.currency?`     | `string`                                                                                               |
-| `result.tokenAddress?` | `string`                                                                                               |
-| `result.tokenPrice?`   | `number`                                                                                               |
-| `success`              | `boolean`                                                                                              |
+| Name                   | Type                                                                                                                        |
+| :--------------------- | :-------------------------------------------------------------------------------------------------------------------------- |
+| `result`               | { `chainId?`: [`ChainId`](enums/ChainId.md) ; `currency?`: `string` ; `tokenAddress?`: `string` ; `tokenPrice?`: `number` } |
+| `result.chainId?`      | [`ChainId`](enums/ChainId.md)                                                                                               |
+| `result.currency?`     | `string`                                                                                                                    |
+| `result.tokenAddress?` | `string`                                                                                                                    |
+| `result.tokenPrice?`   | `number`                                                                                                                    |
+| `success`              | `boolean`                                                                                                                   |
 
 #### Defined in
 
-[src/client/models/TokenPriceResponseDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/TokenPriceResponseDTO.ts#L1)
+[socket-v2-sdk/src/client/models/TokenPriceResponseDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/TokenPriceResponseDTO.ts#L3)
 
 ---
 
@@ -669,7 +882,66 @@
 
 #### Defined in
 
-[src/client/models/TransactionReceiptResponseDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/TransactionReceiptResponseDTO.ts#L1)
+[socket-v2-sdk/src/client/models/TransactionReceiptResponseDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/TransactionReceiptResponseDTO.ts#L1)
+
+---
+
+### TxDoneCallback
+
+Ƭ **TxDoneCallback**: (`tx`: [`SocketTx`](sdk/SocketTx.md), `hash`: `string`) => `void`
+
+#### Type declaration
+
+▸ (`tx`, `hash`): `void`
+
+##### Parameters
+
+| Name   | Type                          |
+| :----- | :---------------------------- |
+| `tx`   | [`SocketTx`](sdk/SocketTx.md) |
+| `hash` | `string`                      |
+
+##### Returns
+
+`void`
+
+#### Defined in
+
+[socket-v2-sdk/src/web3ConnectedSocket.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L22)
+
+---
+
+### UserTx
+
+Ƭ **UserTx**: `Object`
+
+#### Type declaration
+
+| Name                        | Type                                                            |
+| :-------------------------- | :-------------------------------------------------------------- |
+| `approvalData?`             | [`ApprovalData`](types.md#approvaldata)                         |
+| `chainId`                   | [`ChainId`](enums/ChainId.md)                                   |
+| `destinationTxHash?`        | `string`                                                        |
+| `destinationTxReceipt?`     | `TransactionReceipt`                                            |
+| `gasFees`                   | [`GasFee`](types.md#gasfee)                                     |
+| `recipient`                 | `string`                                                        |
+| `routePath`                 | `string`                                                        |
+| `sender`                    | `string`                                                        |
+| `serviceTime`               | `number`                                                        |
+| `sourceTransactionHash?`    | `string`                                                        |
+| `sourceTransactionReceipt?` | `TransactionReceipt`                                            |
+| `stepCount`                 | `number`                                                        |
+| `steps`                     | [`Step`](types.md#step)[]                                       |
+| `toAmount`                  | `string`                                                        |
+| `toAsset`                   | [`Token`](types.md#token)                                       |
+| `txType`                    | [`TxType`](enums/TxType.md)                                     |
+| `userTxIndex`               | `number`                                                        |
+| `userTxStatus?`             | [`PrepareActiveRouteStatus`](enums/PrepareActiveRouteStatus.md) |
+| `userTxType`                | [`UserTxType`](enums/UserTxType.md)                             |
+
+#### Defined in
+
+[socket-v2-sdk/src/client/models/UserTx.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/UserTx.ts#L22)
 
 ## Variables
 
@@ -679,4 +951,4 @@
 
 #### Defined in
 
-[src/client/core/OpenAPI.ts:19](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/OpenAPI.ts#L19)
+[socket-v2-sdk/src/client/core/OpenAPI.ts:19](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/core/OpenAPI.ts#L19)

@@ -14,29 +14,29 @@
 
 ### Constructors
 
-- [constructor](CancelablePromise.md#constructor)
+- [constructor](../client/CancelablePromise.md#constructor)
 
 ### Properties
 
-- [[toStringTag]](CancelablePromise.md#[tostringtag])
-- [\_cancelHandlers](CancelablePromise.md#_cancelhandlers)
-- [\_isCancelled](CancelablePromise.md#_iscancelled)
-- [\_isRejected](CancelablePromise.md#_isrejected)
-- [\_isResolved](CancelablePromise.md#_isresolved)
-- [\_promise](CancelablePromise.md#_promise)
-- [\_reject](CancelablePromise.md#_reject)
-- [\_resolve](CancelablePromise.md#_resolve)
+- [[toStringTag]](../client/CancelablePromise.md#[tostringtag])
+- [\_cancelHandlers](../client/CancelablePromise.md#_cancelhandlers)
+- [\_isCancelled](../client/CancelablePromise.md#_iscancelled)
+- [\_isRejected](../client/CancelablePromise.md#_isrejected)
+- [\_isResolved](../client/CancelablePromise.md#_isresolved)
+- [\_promise](../client/CancelablePromise.md#_promise)
+- [\_reject](../client/CancelablePromise.md#_reject)
+- [\_resolve](../client/CancelablePromise.md#_resolve)
 
 ### Accessors
 
-- [isCancelled](CancelablePromise.md#iscancelled)
+- [isCancelled](../client/CancelablePromise.md#iscancelled)
 
 ### Methods
 
-- [cancel](CancelablePromise.md#cancel)
-- [catch](CancelablePromise.md#catch)
-- [finally](CancelablePromise.md#finally)
-- [then](CancelablePromise.md#then)
+- [cancel](../client/CancelablePromise.md#cancel)
+- [catch](../client/CancelablePromise.md#catch)
+- [finally](../client/CancelablePromise.md#finally)
+- [then](../client/CancelablePromise.md#then)
 
 ## Constructors
 

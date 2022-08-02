@@ -24,7 +24,7 @@
 
 ### getActiveRoute
 
-▸ `Static` **getActiveRoute**(`__namedParameters`): [`CancelablePromise`](../client/CancelablePromise.md)<`ActiveRouteOutputDTO`\>
+▸ `Static` **getActiveRoute**(`__namedParameters`): [`CancelablePromise`](../client/CancelablePromise.md)<[`ActiveRouteOutputDTO`](../types.md#activerouteoutputdto)\>
 
 **`throws`** ApiError
 
@@ -37,13 +37,13 @@
 
 #### Returns
 
-[`CancelablePromise`](../client/CancelablePromise.md)<`ActiveRouteOutputDTO`\>
+[`CancelablePromise`](../client/CancelablePromise.md)<[`ActiveRouteOutputDTO`](../types.md#activerouteoutputdto)\>
 
 ActiveRouteDTO Get active route details using active route id
 
 #### Defined in
 
-[src/client/services/Routes.ts:43](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Routes.ts#L43)
+[socket-v2-sdk/src/client/services/Routes.ts:43](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L43)
 
 ---
 
@@ -55,9 +55,9 @@ ActiveRouteDTO Get active route details using active route id
 
 #### Parameters
 
-| Name      | Type                  |
-| :-------- | :-------------------- |
-| `request` | `ActiveRoutesRequest` |
+| Name      | Type                                                          |
+| :-------- | :------------------------------------------------------------ |
+| `request` | [`ActiveRoutesRequest`](../interfaces/ActiveRoutesRequest.md) |
 
 #### Returns
 
@@ -67,7 +67,7 @@ ActiveRoutesOutputDTO Get all the active routes from a user address. Filters lik
 
 #### Defined in
 
-[src/client/services/Routes.ts:65](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Routes.ts#L65)
+[socket-v2-sdk/src/client/services/Routes.ts:65](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L65)
 
 ---
 
@@ -92,7 +92,7 @@ NextTxOutputDTO Get next tx details of an active route
 
 #### Defined in
 
-[src/client/services/Routes.ts:82](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Routes.ts#L82)
+[socket-v2-sdk/src/client/services/Routes.ts:82](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L82)
 
 ---
 
@@ -124,7 +124,7 @@ StartActiveRouteResponseDTO Starts the Active Route and gives back the data to s
 
 #### Defined in
 
-[src/client/services/Routes.ts:23](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Routes.ts#L23)
+[socket-v2-sdk/src/client/services/Routes.ts:23](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L23)
 
 ---
 
@@ -152,4 +152,4 @@ RouteStatusOutputDTO Get status of an active route while submitting transaction
 
 #### Defined in
 
-[src/client/services/Routes.ts:104](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Routes.ts#L104)
+[socket-v2-sdk/src/client/services/Routes.ts:104](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L104)

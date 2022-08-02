@@ -22,7 +22,6 @@ An entity representing the transaction prompted by the socket api
 - [chainId](SocketTx.md#chainid)
 - [done](SocketTx.md#done)
 - [hash](SocketTx.md#hash)
-- [statusCheckInterval](SocketTx.md#statuscheckinterval)
 - [totalUserTx](SocketTx.md#totalusertx)
 - [txData](SocketTx.md#txdata)
 - [txTarget](SocketTx.md#txtarget)
@@ -37,7 +36,6 @@ An entity representing the transaction prompted by the socket api
 - [getApproveTransaction](SocketTx.md#getapprovetransaction)
 - [getSendTransaction](SocketTx.md#getsendtransaction)
 - [submit](SocketTx.md#submit)
-- [updateActiveRoute](SocketTx.md#updateactiveroute)
 
 ## Constructors
 
@@ -58,7 +56,7 @@ NextTxResponse.constructor
 
 #### Defined in
 
-[src/socketTx.ts:34](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/socketTx.ts#L34)
+[socket-v2-sdk/src/socketTx.ts:36](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socketTx.ts#L36)
 
 ## Properties
 
@@ -74,7 +72,7 @@ Id of Active Route.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L9)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:10](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/NextTxResponse.ts#L10)
 
 ---
 
@@ -86,7 +84,7 @@ If the approval has been checked
 
 #### Defined in
 
-[src/socketTx.ts:20](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/socketTx.ts#L20)
+[socket-v2-sdk/src/socketTx.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socketTx.ts#L22)
 
 ---
 
@@ -100,13 +98,13 @@ If the approval has been checked
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:43](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L43)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:44](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/NextTxResponse.ts#L44)
 
 ---
 
 ### chainId
 
-• **chainId**: `number`
+• **chainId**: [`ChainId`](../enums/ChainId.md)
 
 Id of chain where transaction has to be sent.
 
@@ -116,7 +114,7 @@ Id of chain where transaction has to be sent.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:21](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L21)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/NextTxResponse.ts#L22)
 
 ---
 
@@ -128,7 +126,7 @@ If the transaction is done
 
 #### Defined in
 
-[src/socketTx.ts:24](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/socketTx.ts#L24)
+[socket-v2-sdk/src/socketTx.ts:26](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socketTx.ts#L26)
 
 ---
 
@@ -140,19 +138,7 @@ Hash associated with this socket transaction step
 
 #### Defined in
 
-[src/socketTx.ts:28](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/socketTx.ts#L28)
-
----
-
-### statusCheckInterval
-
-• **statusCheckInterval**: `number`
-
-How often in ms to poll for status updates when checking the transaction
-
-#### Defined in
-
-[src/socketTx.ts:16](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/socketTx.ts#L16)
+[socket-v2-sdk/src/socketTx.ts:30](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socketTx.ts#L30)
 
 ---
 
@@ -168,7 +154,7 @@ Total number of transactions in Active Route.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:42](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L42)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:43](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/NextTxResponse.ts#L43)
 
 ---
 
@@ -184,7 +170,7 @@ Calldata for transaction.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:25](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L25)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:26](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/NextTxResponse.ts#L26)
 
 ---
 
@@ -200,13 +186,13 @@ Address to which transaction has to be sent.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:17](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L17)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:18](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/NextTxResponse.ts#L18)
 
 ---
 
 ### txType
 
-• **txType**: `TxType`
+• **txType**: [`TxType`](../enums/TxType.md)
 
 Type of transaction.
 
@@ -216,7 +202,7 @@ Type of transaction.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:29](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L29)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:30](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/NextTxResponse.ts#L30)
 
 ---
 
@@ -232,13 +218,13 @@ Index of transaction in Active Route. Index of the object in the userTxs array.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:38](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L38)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:39](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/NextTxResponse.ts#L39)
 
 ---
 
 ### userTxType
 
-• **userTxType**: `UserTxType`
+• **userTxType**: [`UserTxType`](../enums/UserTxType.md)
 
 Type of user transaction.
 
@@ -248,7 +234,7 @@ Type of user transaction.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L13)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/NextTxResponse.ts#L14)
 
 ---
 
@@ -264,7 +250,7 @@ Native token amount to be sent with transaction.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:34](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L34)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:35](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/NextTxResponse.ts#L35)
 
 ## Methods
 
@@ -282,7 +268,7 @@ True if required, otherwise false.
 
 #### Defined in
 
-[src/socketTx.ts:43](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/socketTx.ts#L43)
+[socket-v2-sdk/src/socketTx.ts:45](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socketTx.ts#L45)
 
 ---
 
@@ -300,7 +286,7 @@ Apporval data to be sent if required, otherwise null
 
 #### Defined in
 
-[src/socketTx.ts:65](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/socketTx.ts#L65)
+[socket-v2-sdk/src/socketTx.ts:80](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socketTx.ts#L80)
 
 ---
 
@@ -318,13 +304,13 @@ Send transaction data
 
 #### Defined in
 
-[src/socketTx.ts:92](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/socketTx.ts#L92)
+[socket-v2-sdk/src/socketTx.ts:107](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socketTx.ts#L107)
 
 ---
 
 ### submit
 
-▸ **submit**(`hash`): `Promise`<`COMPLETED`\>
+▸ **submit**(`hash`): `Promise`<[`COMPLETED`](../enums/PrepareActiveRouteStatus.md#completed)\>
 
 Submit the hash for this transaction and wait until it is marked as complete
 
@@ -336,34 +322,10 @@ Submit the hash for this transaction and wait until it is marked as complete
 
 #### Returns
 
-`Promise`<`COMPLETED`\>
+`Promise`<[`COMPLETED`](../enums/PrepareActiveRouteStatus.md#completed)\>
 
 Returns the final status "COMPLETED" once the transaction is complete
 
 #### Defined in
 
-[src/socketTx.ts:126](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/socketTx.ts#L126)
-
----
-
-### updateActiveRoute
-
-▸ `Private` **updateActiveRoute**(`hash`): `Promise`<`PrepareActiveRouteStatus`\>
-
-Get the latest status for the transaction
-
-#### Parameters
-
-| Name   | Type     | Description                                  |
-| :----- | :------- | :------------------------------------------- |
-| `hash` | `string` | The hash for this transaction on the network |
-
-#### Returns
-
-`Promise`<`PrepareActiveRouteStatus`\>
-
-The current status
-
-#### Defined in
-
-[src/socketTx.ts:111](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/socketTx.ts#L111)
+[socket-v2-sdk/src/socketTx.ts:145](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socketTx.ts#L145)

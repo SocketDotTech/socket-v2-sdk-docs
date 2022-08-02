@@ -9,7 +9,7 @@
 ### Methods
 
 - [getAllBridges](Supported.md#getallbridges)
-- [getAllSupportedRoutes](Supported.md#getallsupportedroutes)
+- [getAllSupportedChains](Supported.md#getallsupportedchains)
 - [getIfTokenIsSupported](Supported.md#getiftokenissupported)
 
 ## Constructors
@@ -34,13 +34,13 @@ SupportedBridgesOutputDTO All Supported Bridges
 
 #### Defined in
 
-[src/client/services/Supported.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Supported.ts#L13)
+[socket-v2-sdk/src/client/services/Supported.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Supported.ts#L14)
 
 ---
 
-### getAllSupportedRoutes
+### getAllSupportedChains
 
-▸ `Static` **getAllSupportedRoutes**(): [`CancelablePromise`](../client/CancelablePromise.md)<[`SupportedChainsOutputDTO`](../types.md#supportedchainsoutputdto)\>
+▸ `Static` **getAllSupportedChains**(): [`CancelablePromise`](../client/CancelablePromise.md)<[`SupportedChainsOutputDTO`](../types.md#supportedchainsoutputdto)\>
 
 **`throws`** ApiError
 
@@ -52,7 +52,7 @@ SupportedChainsOutputDTO All Supported Chains by Movr
 
 #### Defined in
 
-[src/client/services/Supported.ts:24](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Supported.ts#L24)
+[socket-v2-sdk/src/client/services/Supported.ts:25](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Supported.ts#L25)
 
 ---
 
@@ -64,11 +64,11 @@ SupportedChainsOutputDTO All Supported Chains by Movr
 
 #### Parameters
 
-| Name                        | Type     | Description                    |
-| :-------------------------- | :------- | :----------------------------- |
-| `__namedParameters`         | `Object` | -                              |
-| `__namedParameters.address` | `string` | Contract address of the token  |
-| `__namedParameters.chainId` | `string` | Id of chain, e.g Optimism = 10 |
+| Name                        | Type                             | Description                    |
+| :-------------------------- | :------------------------------- | :----------------------------- |
+| `__namedParameters`         | `Object`                         | -                              |
+| `__namedParameters.address` | `string`                         | Contract address of the token  |
+| `__namedParameters.chainId` | [`ChainId`](../enums/ChainId.md) | Id of chain, e.g Optimism = 10 |
 
 #### Returns
 
@@ -78,4 +78,4 @@ SupportedChainsOutputDTO Get if token is supported
 
 #### Defined in
 
-[src/client/services/Supported.ts:38](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Supported.ts#L38)
+[socket-v2-sdk/src/client/services/Supported.ts:39](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Supported.ts#L39)

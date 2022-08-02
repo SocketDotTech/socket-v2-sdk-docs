@@ -31,7 +31,7 @@ Id of Active Route.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L9)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:10](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxResponse.ts#L10)
 
 ---
 
@@ -41,19 +41,19 @@ Id of Active Route.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:43](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L43)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:44](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxResponse.ts#L44)
 
 ---
 
 ### chainId
 
-• **chainId**: `number`
+• **chainId**: [`ChainId`](../enums/ChainId.md)
 
 Id of chain where transaction has to be sent.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:21](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L21)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxResponse.ts#L22)
 
 ---
 
@@ -65,7 +65,7 @@ Total number of transactions in Active Route.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:42](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L42)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:43](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxResponse.ts#L43)
 
 ---
 
@@ -77,7 +77,7 @@ Calldata for transaction.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:25](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L25)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:26](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxResponse.ts#L26)
 
 ---
 
@@ -89,19 +89,19 @@ Address to which transaction has to be sent.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:17](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L17)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:18](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxResponse.ts#L18)
 
 ---
 
 ### txType
 
-• **txType**: `TxType`
+• **txType**: [`TxType`](../enums/TxType.md)
 
 Type of transaction.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:29](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L29)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:30](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxResponse.ts#L30)
 
 ---
 
@@ -113,19 +113,19 @@ Index of transaction in Active Route. Index of the object in the userTxs array.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:38](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L38)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:39](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxResponse.ts#L39)
 
 ---
 
 ### userTxType
 
-• **userTxType**: `UserTxType`
+• **userTxType**: [`UserTxType`](../enums/UserTxType.md)
 
 Type of user transaction.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L13)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxResponse.ts#L14)
 
 ---
 
@@ -137,4 +137,4 @@ Native token amount to be sent with transaction.
 
 #### Defined in
 
-[src/client/models/NextTxResponse.ts:34](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/models/NextTxResponse.ts#L34)
+[socket-v2-sdk/src/client/models/NextTxResponse.ts:35](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxResponse.ts#L35)

@@ -21,36 +21,36 @@ The Path object represents a trade from a source token to a destination token.
 
 #### Parameters
 
-| Name                | Type                                   | Description              |
-| :------------------ | :------------------------------------- | :----------------------- |
-| `options`           | `Object`                               | The options for the path |
-| `options.fromToken` | [`TokenAsset`](../types.md#tokenasset) | The source token         |
-| `options.toToken`   | [`TokenAsset`](../types.md#tokenasset) | The destination token    |
+| Name                | Type                         | Description              |
+| :------------------ | :--------------------------- | :----------------------- |
+| `options`           | `Object`                     | The options for the path |
+| `options.fromToken` | [`Token`](../types.md#token) | The source token         |
+| `options.toToken`   | [`Token`](../types.md#token) | The destination token    |
 
 #### Defined in
 
-[src/path.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/path.ts#L22)
+[socket-v2-sdk/src/path.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/path.ts#L22)
 
 ## Properties
 
 ### fromToken
 
-• **fromToken**: [`TokenAsset`](../types.md#tokenasset)
+• **fromToken**: [`Token`](../types.md#token)
 
 The source token
 
 #### Defined in
 
-[src/path.ts:10](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/path.ts#L10)
+[socket-v2-sdk/src/path.ts:10](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/path.ts#L10)
 
 ---
 
 ### toToken
 
-• **toToken**: [`TokenAsset`](../types.md#tokenasset)
+• **toToken**: [`Token`](../types.md#token)
 
 The destination token
 
 #### Defined in
 
-[src/path.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/path.ts#L14)
+[socket-v2-sdk/src/path.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/path.ts#L14)

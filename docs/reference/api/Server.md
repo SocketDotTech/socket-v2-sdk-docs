@@ -32,13 +32,13 @@
 
 #### Parameters
 
-| Name                                | Type         | Description                                                               |
-| :---------------------------------- | :----------- | :------------------------------------------------------------------------ |
-| `__namedParameters`                 | `Object`     | -                                                                         |
-| `__namedParameters.bridgeName?`     | `BridgeName` | Name of the bridge used while bridging.                                   |
-| `__namedParameters.fromChainId`     | `number`     | ID of source chain, e.g Ethereum Mainnet = 1                              |
-| `__namedParameters.toChainId`       | `number`     | ID of destination chain, e.g Ethereum Mainnet = 1                         |
-| `__namedParameters.transactionHash` | `string`     | Transaction hash originating from the source chain while bridging assets. |
+| Name                                | Type                                   | Description                                                               |
+| :---------------------------------- | :------------------------------------- | :------------------------------------------------------------------------ |
+| `__namedParameters`                 | `Object`                               | -                                                                         |
+| `__namedParameters.bridgeName?`     | [`BridgeName`](../enums/BridgeName.md) | Name of the bridge used while bridging.                                   |
+| `__namedParameters.fromChainId`     | `number`                               | ID of source chain, e.g Ethereum Mainnet = 1                              |
+| `__namedParameters.toChainId`       | `number`                               | ID of destination chain, e.g Ethereum Mainnet = 1                         |
+| `__namedParameters.transactionHash` | `string`                               | Transaction hash originating from the source chain while bridging assets. |
 
 #### Returns
 
@@ -48,7 +48,7 @@ BridgeStatusResponseDTO Returns the status of the bridging transaction if comple
 
 #### Defined in
 
-[src/client/services/Server.ts:104](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Server.ts#L104)
+[socket-v2-sdk/src/client/services/Server.ts:105](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L105)
 
 ---
 
@@ -60,10 +60,10 @@ BridgeStatusResponseDTO Returns the status of the bridging transaction if comple
 
 #### Parameters
 
-| Name                        | Type     | Description                           |
-| :-------------------------- | :------- | :------------------------------------ |
-| `__namedParameters`         | `Object` | -                                     |
-| `__namedParameters.chainId` | `string` | ID of chain, e.g Ethereum Mainnet = 1 |
+| Name                        | Type                             | Description                           |
+| :-------------------------- | :------------------------------- | :------------------------------------ |
+| `__namedParameters`         | `Object`                         | -                                     |
+| `__namedParameters.chainId` | [`ChainId`](../enums/ChainId.md) | ID of chain, e.g Ethereum Mainnet = 1 |
 
 #### Returns
 
@@ -73,7 +73,7 @@ GasPriceResponseDTO Current gas prices for a chain
 
 #### Defined in
 
-[src/client/services/Server.ts:41](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Server.ts#L41)
+[socket-v2-sdk/src/client/services/Server.ts:42](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L42)
 
 ---
 
@@ -91,7 +91,7 @@ HealthResponseDTO Health Check for Fund Movr API
 
 #### Defined in
 
-[src/client/services/Server.ts:19](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Server.ts#L19)
+[socket-v2-sdk/src/client/services/Server.ts:20](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L20)
 
 ---
 
@@ -109,7 +109,7 @@ any Health Check for Fund Movr API RPCS
 
 #### Defined in
 
-[src/client/services/Server.ts:30](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Server.ts#L30)
+[socket-v2-sdk/src/client/services/Server.ts:31](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L31)
 
 ---
 
@@ -134,7 +134,7 @@ SingleTxOutputDTO Get the tx details for the route.
 
 #### Defined in
 
-[src/client/services/Server.ts:84](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Server.ts#L84)
+[socket-v2-sdk/src/client/services/Server.ts:85](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L85)
 
 ---
 
@@ -146,11 +146,11 @@ SingleTxOutputDTO Get the tx details for the route.
 
 #### Parameters
 
-| Name                             | Type     | Description                                                     |
-| :------------------------------- | :------- | :-------------------------------------------------------------- |
-| `__namedParameters`              | `Object` | -                                                               |
-| `__namedParameters.chainId`      | `string` | ID of chain, e.g Ethereum Mainnet = 1                           |
-| `__namedParameters.tokenAddress` | `string` | Token contract address on network, e.g USDC on Ethereum Mainnet |
+| Name                             | Type                             | Description                                                     |
+| :------------------------------- | :------------------------------- | :-------------------------------------------------------------- |
+| `__namedParameters`              | `Object`                         | -                                                               |
+| `__namedParameters.chainId`      | [`ChainId`](../enums/ChainId.md) | ID of chain, e.g Ethereum Mainnet = 1                           |
+| `__namedParameters.tokenAddress` | `string`                         | Token contract address on network, e.g USDC on Ethereum Mainnet |
 
 #### Returns
 
@@ -160,7 +160,7 @@ TokenPriceResponseDTO Returns price of token for a given chain
 
 #### Defined in
 
-[src/client/services/Server.ts:60](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Server.ts#L60)
+[socket-v2-sdk/src/client/services/Server.ts:61](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L61)
 
 ---
 
@@ -172,11 +172,11 @@ TokenPriceResponseDTO Returns price of token for a given chain
 
 #### Parameters
 
-| Name                                | Type     | Description                                                               |
-| :---------------------------------- | :------- | :------------------------------------------------------------------------ |
-| `__namedParameters`                 | `Object` | -                                                                         |
-| `__namedParameters.chainId`         | `string` | ID of source chain, e.g Ethereum Mainnet = 1                              |
-| `__namedParameters.transactionHash` | `string` | Transaction hash originating from the source chain while bridging assets. |
+| Name                                | Type                             | Description                                                               |
+| :---------------------------------- | :------------------------------- | :------------------------------------------------------------------------ |
+| `__namedParameters`                 | `Object`                         | -                                                                         |
+| `__namedParameters.chainId`         | [`ChainId`](../enums/ChainId.md) | ID of source chain, e.g Ethereum Mainnet = 1                              |
+| `__namedParameters.transactionHash` | `string`                         | Transaction hash originating from the source chain while bridging assets. |
 
 #### Returns
 
@@ -186,4 +186,4 @@ TransactionReceiptResponseDTO Returns the receipt of the transaction.
 
 #### Defined in
 
-[src/client/services/Server.ts:138](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Server.ts#L138)
+[socket-v2-sdk/src/client/services/Server.ts:139](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L139)

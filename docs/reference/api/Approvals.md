@@ -27,13 +27,13 @@
 
 #### Parameters
 
-| Name                                | Type     | Description                                       |
-| :---------------------------------- | :------- | :------------------------------------------------ |
-| `__namedParameters`                 | `Object` | -                                                 |
-| `__namedParameters.allowanceTarget` | `string` | Address whose spending allowance is to be checked |
-| `__namedParameters.chainId`         | `number` | ID of chain, e.g Ethereum Mainnet = 1             |
-| `__namedParameters.owner`           | `string` | Wallet address of token holder                    |
-| `__namedParameters.tokenAddress`    | `string` | Contract address of token                         |
+| Name                                | Type                             | Description                                       |
+| :---------------------------------- | :------------------------------- | :------------------------------------------------ |
+| `__namedParameters`                 | `Object`                         | -                                                 |
+| `__namedParameters.allowanceTarget` | `string`                         | Address whose spending allowance is to be checked |
+| `__namedParameters.chainId`         | [`ChainId`](../enums/ChainId.md) | ID of chain, e.g Ethereum Mainnet = 1             |
+| `__namedParameters.owner`           | `string`                         | Wallet address of token holder                    |
+| `__namedParameters.tokenAddress`    | `string`                         | Contract address of token                         |
 
 #### Returns
 
@@ -43,7 +43,7 @@ ApprovalOutputDTO Gives approval values of given tokens for a given owner & chai
 
 #### Defined in
 
-[src/client/services/Approvals.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Approvals.ts#L13)
+[socket-v2-sdk/src/client/services/Approvals.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Approvals.ts#L14)
 
 ---
 
@@ -55,14 +55,14 @@ ApprovalOutputDTO Gives approval values of given tokens for a given owner & chai
 
 #### Parameters
 
-| Name                                | Type     | Description                                           |
-| :---------------------------------- | :------- | :---------------------------------------------------- |
-| `__namedParameters`                 | `Object` | -                                                     |
-| `__namedParameters.allowanceTarget` | `string` | Address whose spending allowance is to be checked     |
-| `__namedParameters.amount`          | `string` | Amount of tokens to approve, e.g 10 USDC (6 decimals) |
-| `__namedParameters.chainId`         | `number` | ID of chain, e.g Ethereum Mainnet = 1                 |
-| `__namedParameters.owner`           | `string` | Wallet address of token holder                        |
-| `__namedParameters.tokenAddress`    | `string` | Contract address of token                             |
+| Name                                | Type                             | Description                                           |
+| :---------------------------------- | :------------------------------- | :---------------------------------------------------- |
+| `__namedParameters`                 | `Object`                         | -                                                     |
+| `__namedParameters.allowanceTarget` | `string`                         | Address whose spending allowance is to be checked     |
+| `__namedParameters.amount`          | `string`                         | Amount of tokens to approve, e.g 10 USDC (6 decimals) |
+| `__namedParameters.chainId`         | [`ChainId`](../enums/ChainId.md) | ID of chain, e.g Ethereum Mainnet = 1                 |
+| `__namedParameters.owner`           | `string`                         | Wallet address of token holder                        |
+| `__namedParameters.tokenAddress`    | `string`                         | Contract address of token                             |
 
 #### Returns
 
@@ -72,4 +72,4 @@ ApprovalTxOutputDTO Return the Approval Tx Data for the given params.
 
 #### Defined in
 
-[src/client/services/Approvals.ts:47](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Approvals.ts#L47)
+[socket-v2-sdk/src/client/services/Approvals.ts:48](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Approvals.ts#L48)

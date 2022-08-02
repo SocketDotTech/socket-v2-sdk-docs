@@ -1,20 +1,20 @@
-# Quote
+# Quotes
 
 ## Table of contents
 
 ### Constructors
 
-- [constructor](Quote.md#constructor)
+- [constructor](Quotes.md#constructor)
 
 ### Methods
 
-- [getQuote](Quote.md#getquote)
+- [getQuote](Quotes.md#getquote)
 
 ## Constructors
 
 ### constructor
 
-• **new Quote**()
+• **new Quotes**()
 
 ## Methods
 
@@ -26,9 +26,9 @@
 
 #### Parameters
 
-| Name           | Type           |
-| :------------- | :------------- |
-| `quoteRequest` | `QuoteRequest` |
+| Name           | Type                                            |
+| :------------- | :---------------------------------------------- |
+| `quoteRequest` | [`QuoteRequest`](../interfaces/QuoteRequest.md) |
 
 #### Returns
 
@@ -38,4 +38,4 @@ QuoteOutputDTO Returns all the possible routes for bridging tokens from one chai
 
 #### Defined in
 
-[src/client/services/Quote.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/services/Quote.ts#L13)
+[socket-v2-sdk/src/client/services/Quote.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Quote.ts#L13)

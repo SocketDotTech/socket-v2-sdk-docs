@@ -14,7 +14,9 @@ Quote parameters and the retrieved route
 
 - [address](SocketQuote.md#address)
 - [amount](SocketQuote.md#amount)
+- [errors](SocketQuote.md#errors)
 - [path](SocketQuote.md#path)
+- [refuel](SocketQuote.md#refuel)
 - [route](SocketQuote.md#route)
 
 ## Properties
@@ -31,7 +33,7 @@ User address
 
 #### Defined in
 
-[src/types.ts:20](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/types.ts#L20)
+[socket-v2-sdk/src/types.ts:16](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L16)
 
 ---
 
@@ -47,7 +49,19 @@ Amount of the quote
 
 #### Defined in
 
-[src/types.ts:16](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/types.ts#L16)
+[socket-v2-sdk/src/types.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L14)
+
+---
+
+### errors
+
+• **errors**: [`BridgeRouteErrors`](../types.md#bridgerouteerrors)
+
+Errors
+
+#### Defined in
+
+[socket-v2-sdk/src/types.ts:28](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L28)
 
 ---
 
@@ -63,7 +77,19 @@ The path desired
 
 #### Defined in
 
-[src/types.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/types.ts#L12)
+[socket-v2-sdk/src/types.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L12)
+
+---
+
+### refuel
+
+• `Optional` **refuel**: [`RefuelData`](RefuelData.md)
+
+Refuel Data
+
+#### Defined in
+
+[socket-v2-sdk/src/types.ts:26](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L26)
 
 ---
 
@@ -75,4 +101,4 @@ The route retrieved for the quote
 
 #### Defined in
 
-[src/types.ts:30](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/types.ts#L30)
+[socket-v2-sdk/src/types.ts:24](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L24)
