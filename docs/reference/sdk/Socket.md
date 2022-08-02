@@ -1,6 +1,12 @@
+---
+sidebar_position: 1
+---
+
 # Socket
 
-**`inheritdoc`**
+The Socket represents the socket sdk. This is the starting point for interacting with the socket SDK. It allows you to retrieve routes and start the execution of trades based on quotes
+
+It includes direct access to the socket api.
 
 ## Hierarchy
 

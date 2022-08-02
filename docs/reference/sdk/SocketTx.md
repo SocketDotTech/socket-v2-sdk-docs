@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # SocketTx
 
 An entity representing the transaction prompted by the socket api

@@ -1,6 +1,12 @@
+---
+sidebar_position: 2
+---
+
 # Web3ConnectedSocket
 
-**`inheritdoc`**
+The Socket represents the socket sdk. This is the starting point for interacting with the socket SDK. It allows you to retrieve routes and start the execution of trades based on quotes
+
+It includes direct access to the socket api.
 
 The connected socket sdk interfaces directly with wallets
 
