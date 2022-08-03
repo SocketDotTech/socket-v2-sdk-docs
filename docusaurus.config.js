@@ -61,7 +61,7 @@ const config = {
         },
         items: [
           {
-            href: "https://github.com/rugamoto/socket-v2-docs",
+            href: "https://github.com/rugamoto/socket-v2-sdk",
             label: "GitHub",
             position: "right",
           },
