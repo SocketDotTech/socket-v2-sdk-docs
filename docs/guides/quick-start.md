@@ -33,3 +33,5 @@ const socket = new Socket({
   apiKey: "<API_KEY_HERE",
 });
 ```
+
+You are now ready to retrieve data and execute routes.

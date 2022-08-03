@@ -6,7 +6,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Socket V3 SDK",
+  title: "Socket V2 SDK",
   tagline: "Dinosaurs are cool",
   url: "https://rugamoto.github.io/socket-v2-docs/",
   baseUrl: "/socket-v2-docs/",
@@ -61,7 +61,7 @@ const config = {
         },
         items: [
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/rugamoto/socket-v2-docs",
             label: "GitHub",
             position: "right",
           },
@@ -74,16 +74,12 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
-              },
-              {
                 label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                href: "https://discord.gg/zfKJR8yWaH",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                href: "https://twitter.com/socketdottech",
               },
             ],
           },
@@ -91,13 +87,16 @@ const config = {
             title: "More",
             items: [
               {
+                label: "Socket",
+                href: "https://docs.socket.tech",
+              },
+              {
                 label: "GitHub",
                 href: "https://github.com/facebook/docusaurus",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

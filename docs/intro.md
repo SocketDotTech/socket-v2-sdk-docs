@@ -3,7 +3,11 @@ sidebar_position: 1
 slug: /
 ---
 
-# Intro
+# Socket V2 SDK
 
-Socket aims to unify the multichain ecosystem by connecting all chains and enabling seamless asset & information transfer b/w them. It acts as a metalayer that gives protocols seamless connectivity across chains & enables developers to build unified apps with shared liquidity & state across chains.
-Developers can access the Socket metalayer via easy to use APIs & build apps with interoperability as a core part of app infrastructure. With Socket, devs can program bespoke liquidity & information movement b/w all of their app instances & go truly multichain!
+Welcome to Socket V2 SDK documentation. Get started with our [quick start guide](./guides/quick-start.md). Explore the [SDK reference](./reference/sdk/) for more indepth details.
+
+- [Socket V2 SDK on NPM](https://www.npmjs.com/package/socket-v2-sdk)
+- [Socket V2 SDK Github](https://github.com/rugamoto/socket-v2-sdk)
+- [Socket V2 Docs Github](https://github.com/rugamoto/socket-v2-docs)
+- Example Dapp using the SDK: [Spongy Exchange](https://github.com/rugamoto/spongy.exchange)
