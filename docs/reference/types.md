@@ -376,6 +376,8 @@
 
 ▸ (`chainId`): `void`
 
+Callback when chain switch has completed.
+
 ##### Parameters
 
 | Name      | Type                          |
@@ -388,7 +390,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:23](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L23)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:26](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L26)
 
 ---
 
@@ -686,6 +688,8 @@
 
 ▸ (`tx`): `void`
 
+Callback when a socket transaction is complete.
+
 ##### Parameters
 
 | Name | Type                          |
@@ -698,7 +702,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:21](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L21)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L22)
 
 ---
 
@@ -894,6 +898,8 @@
 
 ▸ (`tx`, `hash`): `void`
 
+Callback when a transaction for send/approval has completed.
+
 ##### Parameters
 
 | Name   | Type                          |
@@ -907,7 +913,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L22)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:24](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L24)
 
 ---
 

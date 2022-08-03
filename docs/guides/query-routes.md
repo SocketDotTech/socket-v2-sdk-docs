@@ -32,8 +32,8 @@ There are a defined set of tokens that can be traded using the socket protocol f
 
 ```ts
 const tokenList = await socket.getTokenList({
-  fromChainId: 1, // Ethereum Mainnet
-  toChainId: 137, // Polygon Mainnet
+  fromChainId: ChainId.MAINNET_CHAIN_ID, // Ethereum Mainnet
+  toChainId: ChainId.POLYGON_CHAIN_ID, // Polygon Mainnet
 });
 ```
 
@@ -44,15 +44,12 @@ tokenList.from; // Tokens on the from chain
 tokenList.to; // Tokens on the to chain
 ```
 
-You can for example retrieve the native token object by doing:
+There are utilities for retrieving tokens:
 
 ```ts
-const eth = tokenList.from.find(
-  (token) => token.address === 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-);
-const matic = tokenList.to.find(
-  (token) => token.address === 0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-);
+const eth = tokenList.from.nativeToken;
+const matic =
+  tokenList.to.tokenByAddress(0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee);
 ```
 
 ## Creating a path
@@ -77,7 +74,7 @@ const quote = await socket.getBestQuote({
 
 You can also retrieve the full list of quotes from the api using `socket.getAllRoutes`.
 
-If you would like to further customize the quotes that are returned, pass a `QuotePreferences` object to the quote call. For example:
+If you would like to further customize the quotes that are returned, pass a [`QuotePreferences`](../reference/interfaces/QuotePreferences.md) object to the quote call. For example:
 
 ```ts
 const fastestQuote = await socket.getBestQuote(
@@ -89,3 +86,5 @@ const fastestQuote = await socket.getBestQuote(
   { sort: "time" }
 );
 ```
+
+You are now ready to execute the quote. You may do this by [connecting a wallet with Web3Providers](../guides/web3-provider-execute.md) or [manually](../guides/execute-routes.md).

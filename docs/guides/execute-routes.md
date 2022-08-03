@@ -6,6 +6,10 @@ sidebar_position: 3
 
 Once you have decided on a suitable route to execute. You may start engaging the sdk to execute it.
 
+For the simplest way to execute routes, you can [connect a web3 provider](./web3-provider-execute.md). This will take care of most of the execution process.
+
+For the more controlled process, read on.
+
 It's important to first understand what is required to execute a trade.
 
 ## Requirements
