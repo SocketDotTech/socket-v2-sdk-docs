@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Socket V2 SDK",
   tagline: "Dinosaurs are cool",
-  url: "https://rugamoto.github.io/socket-v2-docs/",
-  baseUrl: "/socket-v2-docs/",
+  url: "https://socketdottech.github.io/socket-v2-sdk-docs/",
+  baseUrl: "/socket-v2-sdk-docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "rugamoto", // Usually your GitHub org/user name.
-  projectName: "socket-v2-docs", // Usually your repo name.
+  projectName: "socket-v2-sdk-docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -61,7 +61,7 @@ const config = {
         },
         items: [
           {
-            href: "https://github.com/rugamoto/socket-v2-sdk",
+            href: "https://github.com/SocketDotTech/socket-v2-sdk",
             label: "GitHub",
             position: "right",
           },
