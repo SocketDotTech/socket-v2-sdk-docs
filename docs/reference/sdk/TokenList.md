@@ -37,7 +37,7 @@ The TokenList represents a list of tokens for a given chain
 
 #### Defined in
 
-[socket-v2-sdk/src/tokenList.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L12)
+[socket-v2-sdk/src/tokenList.ts:12](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L12)
 
 ## Properties
 
@@ -47,7 +47,7 @@ The TokenList represents a list of tokens for a given chain
 
 #### Defined in
 
-[socket-v2-sdk/src/tokenList.ts:10](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L10)
+[socket-v2-sdk/src/tokenList.ts:10](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L10)
 
 ---
 
@@ -57,7 +57,7 @@ The TokenList represents a list of tokens for a given chain
 
 #### Defined in
 
-[socket-v2-sdk/src/tokenList.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L9)
+[socket-v2-sdk/src/tokenList.ts:9](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L9)
 
 ## Accessors
 
@@ -73,7 +73,7 @@ The native token of the chain
 
 #### Defined in
 
-[socket-v2-sdk/src/tokenList.ts:20](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L20)
+[socket-v2-sdk/src/tokenList.ts:20](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L20)
 
 ## Methods
 
@@ -97,7 +97,7 @@ token object
 
 #### Defined in
 
-[socket-v2-sdk/src/tokenList.ts:31](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L31)
+[socket-v2-sdk/src/tokenList.ts:31](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L31)
 
 ---
 
@@ -121,4 +121,4 @@ token object
 
 #### Defined in
 
-[socket-v2-sdk/src/tokenList.ts:40](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L40)
+[socket-v2-sdk/src/tokenList.ts:40](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/tokenList.ts#L40)

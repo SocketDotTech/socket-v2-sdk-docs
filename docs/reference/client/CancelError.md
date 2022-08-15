@@ -46,7 +46,7 @@ Error.constructor
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:2](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L2)
+[src/client/core/CancelablePromise.ts:2](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L2)
 
 ## Properties
 
@@ -149,7 +149,7 @@ node_modules/@types/node/globals.d.ts:13
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:7](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L7)
+[src/client/core/CancelablePromise.ts:7](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L7)
 
 ## Methods
 

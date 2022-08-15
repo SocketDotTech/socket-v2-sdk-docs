@@ -43,7 +43,7 @@ ActiveRouteDTO Get active route details using active route id
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Routes.ts:43](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L43)
+[socket-v2-sdk/src/client/services/Routes.ts:43](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L43)
 
 ---
 
@@ -67,7 +67,7 @@ ActiveRoutesOutputDTO Get all the active routes from a user address. Filters lik
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Routes.ts:65](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L65)
+[socket-v2-sdk/src/client/services/Routes.ts:65](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L65)
 
 ---
 
@@ -92,7 +92,7 @@ NextTxOutputDTO Get next tx details of an active route
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Routes.ts:82](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L82)
+[socket-v2-sdk/src/client/services/Routes.ts:82](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L82)
 
 ---
 
@@ -124,7 +124,7 @@ StartActiveRouteResponseDTO Starts the Active Route and gives back the data to s
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Routes.ts:23](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L23)
+[socket-v2-sdk/src/client/services/Routes.ts:23](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L23)
 
 ---
 
@@ -152,4 +152,4 @@ RouteStatusOutputDTO Get status of an active route while submitting transaction
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Routes.ts:104](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L104)
+[socket-v2-sdk/src/client/services/Routes.ts:104](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Routes.ts#L104)

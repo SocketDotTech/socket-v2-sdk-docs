@@ -43,7 +43,7 @@ ApprovalOutputDTO Gives approval values of given tokens for a given owner & chai
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Approvals.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Approvals.ts#L14)
+[socket-v2-sdk/src/client/services/Approvals.ts:14](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Approvals.ts#L14)
 
 ---
 
@@ -72,4 +72,4 @@ ApprovalTxOutputDTO Return the Approval Tx Data for the given params.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Approvals.ts:48](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Approvals.ts#L48)
+[socket-v2-sdk/src/client/services/Approvals.ts:48](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Approvals.ts#L48)

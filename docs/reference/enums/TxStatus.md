@@ -17,7 +17,7 @@ Status of transaction while bridging.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/TxStatus.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/TxStatus.ts#L6)
+[socket-v2-sdk/src/client/models/TxStatus.ts:6](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/TxStatus.ts#L6)
 
 ---
 
@@ -27,4 +27,4 @@ Status of transaction while bridging.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/TxStatus.ts:5](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/TxStatus.ts#L5)
+[socket-v2-sdk/src/client/models/TxStatus.ts:5](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/TxStatus.ts#L5)

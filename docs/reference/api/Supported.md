@@ -34,7 +34,7 @@ SupportedBridgesOutputDTO All Supported Bridges
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Supported.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Supported.ts#L14)
+[socket-v2-sdk/src/client/services/Supported.ts:14](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Supported.ts#L14)
 
 ---
 
@@ -52,7 +52,7 @@ SupportedChainsOutputDTO All Supported Chains by Movr
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Supported.ts:25](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Supported.ts#L25)
+[socket-v2-sdk/src/client/services/Supported.ts:25](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Supported.ts#L25)
 
 ---
 
@@ -78,4 +78,4 @@ SupportedChainsOutputDTO Get if token is supported
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Supported.ts:39](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Supported.ts#L39)
+[socket-v2-sdk/src/client/services/Supported.ts:39](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Supported.ts#L39)

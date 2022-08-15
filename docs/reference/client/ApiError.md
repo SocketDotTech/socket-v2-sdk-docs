@@ -47,7 +47,7 @@ Error.constructor
 
 #### Defined in
 
-[src/client/core/ApiError.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/ApiError.ts#L9)
+[src/client/core/ApiError.ts:9](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/ApiError.ts#L9)
 
 ## Properties
 
@@ -57,7 +57,7 @@ Error.constructor
 
 #### Defined in
 
-[src/client/core/ApiError.ts:7](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/ApiError.ts#L7)
+[src/client/core/ApiError.ts:7](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/ApiError.ts#L7)
 
 ---
 
@@ -109,7 +109,7 @@ node_modules/typescript/lib/lib.es5.d.ts:1024
 
 #### Defined in
 
-[src/client/core/ApiError.ts:5](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/ApiError.ts#L5)
+[src/client/core/ApiError.ts:5](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/ApiError.ts#L5)
 
 ---
 
@@ -119,7 +119,7 @@ node_modules/typescript/lib/lib.es5.d.ts:1024
 
 #### Defined in
 
-[src/client/core/ApiError.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/ApiError.ts#L6)
+[src/client/core/ApiError.ts:6](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/ApiError.ts#L6)
 
 ---
 
@@ -129,7 +129,7 @@ node_modules/typescript/lib/lib.es5.d.ts:1024
 
 #### Defined in
 
-[src/client/core/ApiError.ts:4](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/ApiError.ts#L4)
+[src/client/core/ApiError.ts:4](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/ApiError.ts#L4)
 
 ---
 

@@ -15,7 +15,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/TxType.ts:2](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/TxType.ts#L2)
+[socket-v2-sdk/src/client/models/TxType.ts:2](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/TxType.ts#L2)
 
 ---
 
@@ -25,4 +25,4 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/TxType.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/TxType.ts#L3)
+[socket-v2-sdk/src/client/models/TxType.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/TxType.ts#L3)

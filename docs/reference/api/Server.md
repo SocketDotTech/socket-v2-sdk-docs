@@ -48,7 +48,7 @@ BridgeStatusResponseDTO Returns the status of the bridging transaction if comple
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Server.ts:105](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L105)
+[socket-v2-sdk/src/client/services/Server.ts:105](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L105)
 
 ---
 
@@ -73,7 +73,7 @@ GasPriceResponseDTO Current gas prices for a chain
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Server.ts:42](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L42)
+[socket-v2-sdk/src/client/services/Server.ts:42](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L42)
 
 ---
 
@@ -91,7 +91,7 @@ HealthResponseDTO Health Check for Fund Movr API
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Server.ts:20](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L20)
+[socket-v2-sdk/src/client/services/Server.ts:20](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L20)
 
 ---
 
@@ -109,7 +109,7 @@ any Health Check for Fund Movr API RPCS
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Server.ts:31](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L31)
+[socket-v2-sdk/src/client/services/Server.ts:31](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L31)
 
 ---
 
@@ -134,7 +134,7 @@ SingleTxOutputDTO Get the tx details for the route.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Server.ts:85](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L85)
+[socket-v2-sdk/src/client/services/Server.ts:85](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L85)
 
 ---
 
@@ -160,7 +160,7 @@ TokenPriceResponseDTO Returns price of token for a given chain
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Server.ts:61](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L61)
+[socket-v2-sdk/src/client/services/Server.ts:61](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L61)
 
 ---
 
@@ -186,4 +186,4 @@ TransactionReceiptResponseDTO Returns the receipt of the transaction.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Server.ts:139](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L139)
+[socket-v2-sdk/src/client/services/Server.ts:139](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Server.ts#L139)

@@ -16,7 +16,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/QuoteRequest.ts:5](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/QuoteRequest.ts#L5)
+[socket-v2-sdk/src/client/models/QuoteRequest.ts:5](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/QuoteRequest.ts#L5)
 
 ---
 
@@ -26,7 +26,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/QuoteRequest.ts:4](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/QuoteRequest.ts#L4)
+[socket-v2-sdk/src/client/models/QuoteRequest.ts:4](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/QuoteRequest.ts#L4)
 
 ---
 
@@ -36,4 +36,4 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/QuoteRequest.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/QuoteRequest.ts#L6)
+[socket-v2-sdk/src/client/models/QuoteRequest.ts:6](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/QuoteRequest.ts#L6)

@@ -19,7 +19,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:17](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L17)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:17](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L17)
 
 ---
 
@@ -29,7 +29,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L9)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:9](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L9)
 
 ---
 
@@ -39,7 +39,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:10](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L10)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:10](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L10)
 
 ---
 
@@ -49,7 +49,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:18](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L18)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:18](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L18)
 
 ---
 
@@ -67,7 +67,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:11](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L11)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:11](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L11)
 
 ---
 
@@ -77,4 +77,4 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:16](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L16)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:16](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/web3ConnectedSocket.ts#L16)

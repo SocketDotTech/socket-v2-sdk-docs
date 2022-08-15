@@ -17,7 +17,7 @@ Status of transaction while bridging.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RouteStatusOutputDTO.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/RouteStatusOutputDTO.ts#L9)
+[socket-v2-sdk/src/client/models/RouteStatusOutputDTO.ts:9](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/RouteStatusOutputDTO.ts#L9)
 
 ---
 
@@ -27,4 +27,4 @@ Status of transaction while bridging.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RouteStatusOutputDTO.ts:8](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/RouteStatusOutputDTO.ts#L8)
+[socket-v2-sdk/src/client/models/RouteStatusOutputDTO.ts:8](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/RouteStatusOutputDTO.ts#L8)

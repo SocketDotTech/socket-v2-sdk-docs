@@ -38,4 +38,4 @@ QuoteOutputDTO Returns all the possible routes for bridging tokens from one chai
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Quote.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Quote.ts#L13)
+[socket-v2-sdk/src/client/services/Quote.ts:13](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Quote.ts#L13)

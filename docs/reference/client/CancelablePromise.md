@@ -58,7 +58,7 @@
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:31](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L31)
+[src/client/core/CancelablePromise.ts:31](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L31)
 
 ## Properties
 
@@ -72,7 +72,7 @@ Promise.\_\_@toStringTag@26
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:21](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L21)
+[src/client/core/CancelablePromise.ts:21](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L21)
 
 ---
 
@@ -82,7 +82,7 @@ Promise.\_\_@toStringTag@26
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:26](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L26)
+[src/client/core/CancelablePromise.ts:26](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L26)
 
 ---
 
@@ -92,7 +92,7 @@ Promise.\_\_@toStringTag@26
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:25](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L25)
+[src/client/core/CancelablePromise.ts:25](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L25)
 
 ---
 
@@ -102,7 +102,7 @@ Promise.\_\_@toStringTag@26
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:24](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L24)
+[src/client/core/CancelablePromise.ts:24](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L24)
 
 ---
 
@@ -112,7 +112,7 @@ Promise.\_\_@toStringTag@26
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:23](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L23)
+[src/client/core/CancelablePromise.ts:23](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L23)
 
 ---
 
@@ -122,7 +122,7 @@ Promise.\_\_@toStringTag@26
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:27](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L27)
+[src/client/core/CancelablePromise.ts:27](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L27)
 
 ---
 
@@ -146,7 +146,7 @@ Promise.\_\_@toStringTag@26
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:29](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L29)
+[src/client/core/CancelablePromise.ts:29](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L29)
 
 ---
 
@@ -170,7 +170,7 @@ Promise.\_\_@toStringTag@26
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:28](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L28)
+[src/client/core/CancelablePromise.ts:28](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L28)
 
 ## Accessors
 
@@ -184,7 +184,7 @@ Promise.\_\_@toStringTag@26
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:121](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L121)
+[src/client/core/CancelablePromise.ts:121](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L121)
 
 ## Methods
 
@@ -198,7 +198,7 @@ Promise.\_\_@toStringTag@26
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:102](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L102)
+[src/client/core/CancelablePromise.ts:102](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L102)
 
 ---
 
@@ -228,7 +228,7 @@ Promise.catch
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:92](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L92)
+[src/client/core/CancelablePromise.ts:92](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L92)
 
 ---
 
@@ -252,7 +252,7 @@ Promise.finally
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:98](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L98)
+[src/client/core/CancelablePromise.ts:98](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L98)
 
 ---
 
@@ -284,4 +284,4 @@ Promise.then
 
 #### Defined in
 
-[src/client/core/CancelablePromise.ts:85](https://github.com/rugamoto/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L85)
+[src/client/core/CancelablePromise.ts:85](https://github.com/SocketDotTech/socket-v2-sdk/blob/72e8f92/src/client/core/CancelablePromise.ts#L85)

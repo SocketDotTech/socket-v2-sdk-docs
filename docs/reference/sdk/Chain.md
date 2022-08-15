@@ -48,7 +48,7 @@ ChainDetails.constructor
 
 #### Defined in
 
-[socket-v2-sdk/src/chain.ts:10](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/chain.ts#L10)
+[socket-v2-sdk/src/chain.ts:10](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/chain.ts#L10)
 
 ## Properties
 
@@ -64,7 +64,7 @@ ChainDetails.chainId
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ChainDetails.ts:8](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L8)
+[socket-v2-sdk/src/client/models/ChainDetails.ts:8](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L8)
 
 ---
 
@@ -78,7 +78,7 @@ ChainDetails.currency
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ChainDetails.ts:29](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L29)
+[socket-v2-sdk/src/client/models/ChainDetails.ts:29](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L29)
 
 ---
 
@@ -92,7 +92,7 @@ ChainDetails.explorers
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ChainDetails.ts:31](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L31)
+[socket-v2-sdk/src/client/models/ChainDetails.ts:31](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L31)
 
 ---
 
@@ -108,7 +108,7 @@ ChainDetails.icon
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ChainDetails.ts:16](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L16)
+[socket-v2-sdk/src/client/models/ChainDetails.ts:16](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L16)
 
 ---
 
@@ -124,7 +124,7 @@ ChainDetails.isL1
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ChainDetails.ts:20](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L20)
+[socket-v2-sdk/src/client/models/ChainDetails.ts:20](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L20)
 
 ---
 
@@ -140,7 +140,7 @@ ChainDetails.name
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ChainDetails.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L12)
+[socket-v2-sdk/src/client/models/ChainDetails.ts:12](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L12)
 
 ---
 
@@ -156,7 +156,7 @@ ChainDetails.receivingEnabled
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ChainDetails.ts:28](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L28)
+[socket-v2-sdk/src/client/models/ChainDetails.ts:28](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L28)
 
 ---
 
@@ -170,7 +170,7 @@ ChainDetails.rpcs
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ChainDetails.ts:30](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L30)
+[socket-v2-sdk/src/client/models/ChainDetails.ts:30](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L30)
 
 ---
 
@@ -186,7 +186,7 @@ ChainDetails.sendingEnabled
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ChainDetails.ts:24](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L24)
+[socket-v2-sdk/src/client/models/ChainDetails.ts:24](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/client/models/ChainDetails.ts#L24)
 
 ## Accessors
 
@@ -202,4 +202,4 @@ The native token of the chain
 
 #### Defined in
 
-[socket-v2-sdk/src/chain.ts:17](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/chain.ts#L17)
+[socket-v2-sdk/src/chain.ts:17](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/chain.ts#L17)

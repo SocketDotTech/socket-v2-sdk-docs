@@ -57,7 +57,7 @@ BaseSocket.constructor
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:49](https://github.com/rugamoto/socket-v2-sdk/blob/cf894be/src/web3ConnectedSocket.ts#L49)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:49](https://github.com/SocketDotTech/socket-v2-sdk/blob/cf894be/src/web3ConnectedSocket.ts#L49)
 
 ## Properties
 
@@ -71,7 +71,7 @@ BaseSocket.\_provider
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:47](https://github.com/rugamoto/socket-v2-sdk/blob/cf894be/src/web3ConnectedSocket.ts#L47)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:47](https://github.com/SocketDotTech/socket-v2-sdk/blob/cf894be/src/web3ConnectedSocket.ts#L47)
 
 ---
 
@@ -99,7 +99,7 @@ BaseSocket.client
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:54](https://github.com/rugamoto/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L54)
+[socket-v2-sdk/src/baseSocket.ts:54](https://github.com/SocketDotTech/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L54)
 
 ## Methods
 
@@ -122,7 +122,7 @@ Continue an active route
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:149](https://github.com/rugamoto/socket-v2-sdk/blob/cf894be/src/web3ConnectedSocket.ts#L149)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:149](https://github.com/SocketDotTech/socket-v2-sdk/blob/cf894be/src/web3ConnectedSocket.ts#L149)
 
 ---
 
@@ -150,7 +150,7 @@ BaseSocket.getActiveRoutes
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:201](https://github.com/rugamoto/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L201)
+[socket-v2-sdk/src/baseSocket.ts:201](https://github.com/SocketDotTech/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L201)
 
 ---
 
@@ -179,7 +179,7 @@ BaseSocket.getAllQuotes
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:161](https://github.com/rugamoto/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L161)
+[socket-v2-sdk/src/baseSocket.ts:161](https://github.com/SocketDotTech/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L161)
 
 ---
 
@@ -208,7 +208,7 @@ BaseSocket.getBestQuote
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:150](https://github.com/rugamoto/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L150)
+[socket-v2-sdk/src/baseSocket.ts:150](https://github.com/SocketDotTech/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L150)
 
 ---
 
@@ -236,7 +236,7 @@ BaseSocket.getChain
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:92](https://github.com/rugamoto/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L92)
+[socket-v2-sdk/src/baseSocket.ts:92](https://github.com/SocketDotTech/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L92)
 
 ---
 
@@ -258,7 +258,7 @@ BaseSocket.getChains
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:77](https://github.com/rugamoto/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L77)
+[socket-v2-sdk/src/baseSocket.ts:77](https://github.com/SocketDotTech/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L77)
 
 ---
 
@@ -286,7 +286,7 @@ BaseSocket.getTokenList
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:110](https://github.com/rugamoto/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L110)
+[socket-v2-sdk/src/baseSocket.ts:110](https://github.com/SocketDotTech/socket-v2-sdk/blob/cf894be/src/baseSocket.ts#L110)
 
 ---
 
@@ -309,4 +309,4 @@ Start executing the quote on the provider
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:138](https://github.com/rugamoto/socket-v2-sdk/blob/cf894be/src/web3ConnectedSocket.ts#L138)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:138](https://github.com/SocketDotTech/socket-v2-sdk/blob/cf894be/src/web3ConnectedSocket.ts#L138)

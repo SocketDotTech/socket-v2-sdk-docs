@@ -33,7 +33,7 @@ User address
 
 #### Defined in
 
-[socket-v2-sdk/src/types.ts:16](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L16)
+[socket-v2-sdk/src/types.ts:16](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/types.ts#L16)
 
 ---
 
@@ -49,7 +49,7 @@ Amount of the quote
 
 #### Defined in
 
-[socket-v2-sdk/src/types.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L14)
+[socket-v2-sdk/src/types.ts:14](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/types.ts#L14)
 
 ---
 
@@ -61,7 +61,7 @@ Errors
 
 #### Defined in
 
-[socket-v2-sdk/src/types.ts:28](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L28)
+[socket-v2-sdk/src/types.ts:28](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/types.ts#L28)
 
 ---
 
@@ -77,7 +77,7 @@ The path desired
 
 #### Defined in
 
-[socket-v2-sdk/src/types.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L12)
+[socket-v2-sdk/src/types.ts:12](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/types.ts#L12)
 
 ---
 
@@ -89,7 +89,7 @@ Refuel Data
 
 #### Defined in
 
-[socket-v2-sdk/src/types.ts:26](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L26)
+[socket-v2-sdk/src/types.ts:26](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/types.ts#L26)
 
 ---
 
@@ -101,4 +101,4 @@ The route retrieved for the quote
 
 #### Defined in
 
-[socket-v2-sdk/src/types.ts:24](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L24)
+[socket-v2-sdk/src/types.ts:24](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/types.ts#L24)

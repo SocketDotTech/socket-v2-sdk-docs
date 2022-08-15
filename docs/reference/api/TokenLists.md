@@ -39,7 +39,7 @@ TokenListOutputDTO All Supported token by a given chainId
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/TokenLists.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/TokenLists.ts#L13)
+[socket-v2-sdk/src/client/services/TokenLists.ts:13](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/TokenLists.ts#L13)
 
 ---
 
@@ -63,4 +63,4 @@ TokenListOutputDTO All Supported token by a given route
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/TokenLists.ts:48](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/TokenLists.ts#L48)
+[socket-v2-sdk/src/client/services/TokenLists.ts:48](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/TokenLists.ts#L48)

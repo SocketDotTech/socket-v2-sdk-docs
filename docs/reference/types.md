@@ -112,7 +112,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRouteOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRouteOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/ActiveRouteOutputDTO.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRouteOutputDTO.ts#L3)
 
 ---
 
@@ -143,7 +143,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRouteResponse.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRouteResponse.ts#L9)
+[socket-v2-sdk/src/client/models/ActiveRouteResponse.ts:9](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRouteResponse.ts#L9)
 
 ---
 
@@ -165,7 +165,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRoutesOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/ActiveRoutesOutputDTO.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesOutputDTO.ts#L3)
 
 ---
 
@@ -184,7 +184,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ApprovalData.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ApprovalData.ts#L1)
+[socket-v2-sdk/src/client/models/ApprovalData.ts:1](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ApprovalData.ts#L1)
 
 ---
 
@@ -203,7 +203,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ApprovalOutputDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ApprovalOutputDTO.ts#L1)
+[socket-v2-sdk/src/client/models/ApprovalOutputDTO.ts:1](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ApprovalOutputDTO.ts#L1)
 
 ---
 
@@ -223,7 +223,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ApprovalTxOutputDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ApprovalTxOutputDTO.ts#L1)
+[socket-v2-sdk/src/client/models/ApprovalTxOutputDTO.ts:1](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ApprovalTxOutputDTO.ts#L1)
 
 ---
 
@@ -240,7 +240,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/Balance.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/Balance.ts#L3)
+[socket-v2-sdk/src/client/models/Balance.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/Balance.ts#L3)
 
 ---
 
@@ -263,7 +263,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/BalanceResult.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/BalanceResult.ts#L3)
+[socket-v2-sdk/src/client/models/BalanceResult.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/BalanceResult.ts#L3)
 
 ---
 
@@ -282,7 +282,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/BridgeDetails.ts:5](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeDetails.ts#L5)
+[socket-v2-sdk/src/client/models/BridgeDetails.ts:5](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeDetails.ts#L5)
 
 ---
 
@@ -292,7 +292,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/BridgeRouteErrors.ts:8](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeRouteErrors.ts#L8)
+[socket-v2-sdk/src/client/models/BridgeRouteErrors.ts:8](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeRouteErrors.ts#L8)
 
 ---
 
@@ -313,7 +313,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/BridgeStatusResponse.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeStatusResponse.ts#L3)
+[socket-v2-sdk/src/client/models/BridgeStatusResponse.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeStatusResponse.ts#L3)
 
 ---
 
@@ -330,7 +330,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/BridgeStatusResponseDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeStatusResponseDTO.ts#L3)
+[socket-v2-sdk/src/client/models/BridgeStatusResponseDTO.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/BridgeStatusResponseDTO.ts#L3)
 
 ---
 
@@ -354,7 +354,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ChainDetails.ts:4](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ChainDetails.ts#L4)
+[socket-v2-sdk/src/client/models/ChainDetails.ts:4](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ChainDetails.ts#L4)
 
 ---
 
@@ -364,7 +364,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ChainGasBalances.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ChainGasBalances.ts#L1)
+[socket-v2-sdk/src/client/models/ChainGasBalances.ts:1](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ChainGasBalances.ts#L1)
 
 ---
 
@@ -390,7 +390,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:26](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L26)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:26](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L26)
 
 ---
 
@@ -400,7 +400,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/Dexes.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/Dexes.ts#L3)
+[socket-v2-sdk/src/client/models/Dexes.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/Dexes.ts#L3)
 
 ---
 
@@ -419,7 +419,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/GasFee.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/GasFee.ts#L3)
+[socket-v2-sdk/src/client/models/GasFee.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/GasFee.ts#L3)
 
 ---
 
@@ -447,7 +447,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/GasPriceResponseDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/GasPriceResponseDTO.ts#L3)
+[socket-v2-sdk/src/client/models/GasPriceResponseDTO.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/GasPriceResponseDTO.ts#L3)
 
 ---
 
@@ -468,7 +468,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/GasTokenDetails.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/GasTokenDetails.ts#L1)
+[socket-v2-sdk/src/client/models/GasTokenDetails.ts:1](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/GasTokenDetails.ts#L1)
 
 ---
 
@@ -484,7 +484,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/HealthResponseDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/HealthResponseDTO.ts#L1)
+[socket-v2-sdk/src/client/models/HealthResponseDTO.ts:1](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/HealthResponseDTO.ts#L1)
 
 ---
 
@@ -494,7 +494,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/MinGasBalances.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/MinGasBalances.ts#L1)
+[socket-v2-sdk/src/client/models/MinGasBalances.ts:1](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/MinGasBalances.ts#L1)
 
 ---
 
@@ -511,7 +511,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/NextTxOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/NextTxOutputDTO.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/NextTxOutputDTO.ts#L3)
 
 ---
 
@@ -536,7 +536,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/core/OpenAPI.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/core/OpenAPI.ts#L6)
+[socket-v2-sdk/src/client/core/OpenAPI.ts:6](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/core/OpenAPI.ts#L6)
 
 ---
 
@@ -558,7 +558,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/QuoteOutputDTO.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteOutputDTO.ts#L6)
+[socket-v2-sdk/src/client/models/QuoteOutputDTO.ts:6](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteOutputDTO.ts#L6)
 
 ---
 
@@ -575,7 +575,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/QuoteOutputDTO.ts:16](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteOutputDTO.ts#L16)
+[socket-v2-sdk/src/client/models/QuoteOutputDTO.ts:16](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteOutputDTO.ts#L16)
 
 ---
 
@@ -602,7 +602,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/Route.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/Route.ts#L6)
+[socket-v2-sdk/src/client/models/Route.ts:6](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/Route.ts#L6)
 
 ---
 
@@ -619,7 +619,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RouteStatusOutputDTO.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/RouteStatusOutputDTO.ts#L12)
+[socket-v2-sdk/src/client/models/RouteStatusOutputDTO.ts:12](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/RouteStatusOutputDTO.ts#L12)
 
 ---
 
@@ -636,7 +636,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/SingleTxDTO.ts:4](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SingleTxDTO.ts#L4)
+[socket-v2-sdk/src/client/models/SingleTxDTO.ts:4](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/SingleTxDTO.ts#L4)
 
 ---
 
@@ -653,7 +653,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/SingleTxOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SingleTxOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/SingleTxOutputDTO.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/SingleTxOutputDTO.ts#L3)
 
 ---
 
@@ -676,7 +676,7 @@ Callback when chain switch has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/SingleTxResponse.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SingleTxResponse.ts#L6)
+[socket-v2-sdk/src/client/models/SingleTxResponse.ts:6](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/SingleTxResponse.ts#L6)
 
 ---
 
@@ -702,7 +702,7 @@ Callback when a socket transaction is complete.
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L22)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:22](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L22)
 
 ---
 
@@ -724,7 +724,7 @@ Callback when a socket transaction is complete.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/StartActiveRouteInputDTO.ts:4](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/StartActiveRouteInputDTO.ts#L4)
+[socket-v2-sdk/src/client/models/StartActiveRouteInputDTO.ts:4](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/StartActiveRouteInputDTO.ts#L4)
 
 ---
 
@@ -749,7 +749,7 @@ Callback when a socket transaction is complete.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/UserTx.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/UserTx.ts#L9)
+[socket-v2-sdk/src/client/models/UserTx.ts:9](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/UserTx.ts#L9)
 
 ---
 
@@ -766,7 +766,7 @@ Callback when a socket transaction is complete.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/SupportedBridgesOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SupportedBridgesOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/SupportedBridgesOutputDTO.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/SupportedBridgesOutputDTO.ts#L3)
 
 ---
 
@@ -783,7 +783,7 @@ Callback when a socket transaction is complete.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/SupportedChainsOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SupportedChainsOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/SupportedChainsOutputDTO.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/SupportedChainsOutputDTO.ts#L3)
 
 ---
 
@@ -806,7 +806,7 @@ Callback when a socket transaction is complete.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/Token.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/Token.ts#L3)
+[socket-v2-sdk/src/client/models/Token.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/Token.ts#L3)
 
 ---
 
@@ -831,7 +831,7 @@ Callback when a socket transaction is complete.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/TokenBalanceReponseDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/TokenBalanceReponseDTO.ts#L3)
+[socket-v2-sdk/src/client/models/TokenBalanceReponseDTO.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/TokenBalanceReponseDTO.ts#L3)
 
 ---
 
@@ -848,7 +848,7 @@ Callback when a socket transaction is complete.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/TokenListOutputDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/TokenListOutputDTO.ts#L3)
+[socket-v2-sdk/src/client/models/TokenListOutputDTO.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/TokenListOutputDTO.ts#L3)
 
 ---
 
@@ -869,7 +869,7 @@ Callback when a socket transaction is complete.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/TokenPriceResponseDTO.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/TokenPriceResponseDTO.ts#L3)
+[socket-v2-sdk/src/client/models/TokenPriceResponseDTO.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/TokenPriceResponseDTO.ts#L3)
 
 ---
 
@@ -886,7 +886,7 @@ Callback when a socket transaction is complete.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/TransactionReceiptResponseDTO.ts:1](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/TransactionReceiptResponseDTO.ts#L1)
+[socket-v2-sdk/src/client/models/TransactionReceiptResponseDTO.ts:1](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/TransactionReceiptResponseDTO.ts#L1)
 
 ---
 
@@ -913,7 +913,7 @@ Callback when a transaction for send/approval has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:24](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L24)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:24](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L24)
 
 ---
 
@@ -947,7 +947,7 @@ Callback when a transaction for send/approval has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/UserTx.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/UserTx.ts#L22)
+[socket-v2-sdk/src/client/models/UserTx.ts:22](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/UserTx.ts#L22)
 
 ## Variables
 
@@ -957,4 +957,4 @@ Callback when a transaction for send/approval has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/core/OpenAPI.ts:19](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/core/OpenAPI.ts#L19)
+[socket-v2-sdk/src/client/core/OpenAPI.ts:19](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/core/OpenAPI.ts#L19)

@@ -13,13 +13,13 @@ First install the sdk from npm.
 Npm:
 
 ```
-npm i @socket.tech/v2-sdk
+npm i @socket.tech/socket-v2-sdk
 ```
 
 Yarn:
 
 ```
-yarn add @socket.tech/v2-sdk
+yarn add @socket.tech/socket-v2-sdk
 ```
 
 ## Usage

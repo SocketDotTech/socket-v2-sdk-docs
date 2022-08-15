@@ -34,7 +34,7 @@ include gas transfer with bridging tx
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/QuoteRequest.ts:20](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteRequest.ts#L20)
+[socket-v2-sdk/src/client/models/QuoteRequest.ts:20](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteRequest.ts#L20)
 
 ---
 
@@ -50,7 +50,7 @@ Flag to specify if routes that have dex swap should be ignored.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/SocketPreferences.ts:5](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L5)
+[socket-v2-sdk/src/client/models/SocketPreferences.ts:5](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L5)
 
 ---
 
@@ -67,7 +67,7 @@ This option will be ignored if includeBridges is specified.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/SocketPreferences.ts:15](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L15)
+[socket-v2-sdk/src/client/models/SocketPreferences.ts:15](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L15)
 
 ---
 
@@ -84,7 +84,7 @@ This option will be ignored if includeDexes is specified.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/SocketPreferences.ts:10](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L10)
+[socket-v2-sdk/src/client/models/SocketPreferences.ts:10](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L10)
 
 ---
 
@@ -100,7 +100,7 @@ Specify Bridges that should be included in routes.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/SocketPreferences.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L12)
+[socket-v2-sdk/src/client/models/SocketPreferences.ts:12](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L12)
 
 ---
 
@@ -116,7 +116,7 @@ Specify Dexes that should be included in routes.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/SocketPreferences.ts:7](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L7)
+[socket-v2-sdk/src/client/models/SocketPreferences.ts:7](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L7)
 
 ---
 
@@ -128,7 +128,7 @@ Only get quotes with that are compatible with contracts
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/QuoteRequest.ts:18](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteRequest.ts#L18)
+[socket-v2-sdk/src/client/models/QuoteRequest.ts:18](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteRequest.ts#L18)
 
 ---
 
@@ -141,7 +141,7 @@ This option will be ignored if singleTxOnly is marked as true.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/QuoteRequest.ts:16](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteRequest.ts#L16)
+[socket-v2-sdk/src/client/models/QuoteRequest.ts:16](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteRequest.ts#L16)
 
 ---
 
@@ -157,7 +157,7 @@ Only get quotes with one user transaction to bridge.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/SocketPreferences.ts:17](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L17)
+[socket-v2-sdk/src/client/models/SocketPreferences.ts:17](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/SocketPreferences.ts#L17)
 
 ---
 
@@ -169,7 +169,7 @@ Param to sort routes based on.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/QuoteRequest.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteRequest.ts#L13)
+[socket-v2-sdk/src/client/models/QuoteRequest.ts:13](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteRequest.ts#L13)
 
 ---
 
@@ -181,4 +181,4 @@ Flag to return only best route per bridge using the sort criteria
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/QuoteRequest.ts:11](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteRequest.ts#L11)
+[socket-v2-sdk/src/client/models/QuoteRequest.ts:11](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/QuoteRequest.ts#L11)

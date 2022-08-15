@@ -29,7 +29,7 @@ The Path object represents a trade from a source token to a destination token.
 
 #### Defined in
 
-[socket-v2-sdk/src/path.ts:22](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/path.ts#L22)
+[socket-v2-sdk/src/path.ts:22](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/path.ts#L22)
 
 ## Properties
 
@@ -41,7 +41,7 @@ The source token
 
 #### Defined in
 
-[socket-v2-sdk/src/path.ts:10](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/path.ts#L10)
+[socket-v2-sdk/src/path.ts:10](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/path.ts#L10)
 
 ---
 
@@ -53,4 +53,4 @@ The destination token
 
 #### Defined in
 
-[socket-v2-sdk/src/path.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/path.ts#L14)
+[socket-v2-sdk/src/path.ts:14](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/path.ts#L14)

@@ -22,7 +22,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RefuelData.ts:5](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L5)
+[socket-v2-sdk/src/client/models/RefuelData.ts:5](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L5)
 
 ---
 
@@ -32,7 +32,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RefuelData.ts:10](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L10)
+[socket-v2-sdk/src/client/models/RefuelData.ts:10](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L10)
 
 ---
 
@@ -42,7 +42,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RefuelData.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L12)
+[socket-v2-sdk/src/client/models/RefuelData.ts:12](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L12)
 
 ---
 
@@ -52,7 +52,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RefuelData.ts:7](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L7)
+[socket-v2-sdk/src/client/models/RefuelData.ts:7](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L7)
 
 ---
 
@@ -62,7 +62,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RefuelData.ts:8](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L8)
+[socket-v2-sdk/src/client/models/RefuelData.ts:8](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L8)
 
 ---
 
@@ -72,7 +72,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RefuelData.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L9)
+[socket-v2-sdk/src/client/models/RefuelData.ts:9](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L9)
 
 ---
 
@@ -82,7 +82,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RefuelData.ts:6](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L6)
+[socket-v2-sdk/src/client/models/RefuelData.ts:6](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L6)
 
 ---
 
@@ -92,7 +92,7 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RefuelData.ts:11](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L11)
+[socket-v2-sdk/src/client/models/RefuelData.ts:11](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L11)
 
 ---
 
@@ -102,4 +102,4 @@
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/RefuelData.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L13)
+[socket-v2-sdk/src/client/models/RefuelData.ts:13](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/RefuelData.ts#L13)

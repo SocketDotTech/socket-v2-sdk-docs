@@ -42,7 +42,7 @@ TokenBalanceReponseDTO Returns the balance of the token on any given chain
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Balances.ts:31](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Balances.ts#L31)
+[socket-v2-sdk/src/client/services/Balances.ts:31](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Balances.ts#L31)
 
 ---
 
@@ -67,4 +67,4 @@ Balance Returns the balance of all tokens for a user address on all supported ch
 
 #### Defined in
 
-[socket-v2-sdk/src/client/services/Balances.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/services/Balances.ts#L14)
+[socket-v2-sdk/src/client/services/Balances.ts:14](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/services/Balances.ts#L14)

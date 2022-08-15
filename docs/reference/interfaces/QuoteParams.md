@@ -26,7 +26,7 @@ User address
 
 #### Defined in
 
-[socket-v2-sdk/src/types.ts:16](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L16)
+[socket-v2-sdk/src/types.ts:16](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/types.ts#L16)
 
 ---
 
@@ -38,7 +38,7 @@ Amount of the quote
 
 #### Defined in
 
-[socket-v2-sdk/src/types.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L14)
+[socket-v2-sdk/src/types.ts:14](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/types.ts#L14)
 
 ---
 
@@ -50,4 +50,4 @@ The path desired
 
 #### Defined in
 
-[socket-v2-sdk/src/types.ts:12](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/types.ts#L12)
+[socket-v2-sdk/src/types.ts:12](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/types.ts#L12)

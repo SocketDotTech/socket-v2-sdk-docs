@@ -30,7 +30,7 @@ Callback when an approval is being requested.
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:32](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L32)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:32](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L32)
 
 ---
 
@@ -53,7 +53,7 @@ Callback when switching chains is being requested.
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:36](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L36)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:36](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L36)
 
 ---
 
@@ -75,7 +75,7 @@ Callback when the route execution has completed.
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:38](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L38)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:38](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L38)
 
 ---
 
@@ -97,7 +97,7 @@ Callback when a send transaction is being requested.
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:34](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L34)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:34](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L34)
 
 ---
 
@@ -119,4 +119,4 @@ Callback when a new socket transaction has begun.
 
 #### Defined in
 
-[socket-v2-sdk/src/web3ConnectedSocket.ts:30](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L30)
+[socket-v2-sdk/src/web3ConnectedSocket.ts:30](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/web3ConnectedSocket.ts#L30)

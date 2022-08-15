@@ -54,7 +54,7 @@ BaseSocket.constructor
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:68](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L68)
+[socket-v2-sdk/src/baseSocket.ts:68](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L68)
 
 ## Properties
 
@@ -82,7 +82,7 @@ BaseSocket.client
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:54](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L54)
+[socket-v2-sdk/src/baseSocket.ts:54](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L54)
 
 ## Methods
 
@@ -104,7 +104,7 @@ Connect Socket to a web3 provider that will be used to execute routes
 
 #### Defined in
 
-[socket-v2-sdk/src/socket.ts:31](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socket.ts#L31)
+[socket-v2-sdk/src/socket.ts:31](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/socket.ts#L31)
 
 ---
 
@@ -128,7 +128,7 @@ An iterator that will yield each transaction required in the route
 
 #### Defined in
 
-[socket-v2-sdk/src/socket.ts:23](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socket.ts#L23)
+[socket-v2-sdk/src/socket.ts:23](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/socket.ts#L23)
 
 ---
 
@@ -156,7 +156,7 @@ BaseSocket.getActiveRoutes
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:201](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L201)
+[socket-v2-sdk/src/baseSocket.ts:201](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L201)
 
 ---
 
@@ -185,7 +185,7 @@ BaseSocket.getAllQuotes
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:161](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L161)
+[socket-v2-sdk/src/baseSocket.ts:161](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L161)
 
 ---
 
@@ -214,7 +214,7 @@ BaseSocket.getBestQuote
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:150](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L150)
+[socket-v2-sdk/src/baseSocket.ts:150](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L150)
 
 ---
 
@@ -242,7 +242,7 @@ BaseSocket.getChain
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:92](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L92)
+[socket-v2-sdk/src/baseSocket.ts:92](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L92)
 
 ---
 
@@ -264,7 +264,7 @@ BaseSocket.getChains
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:77](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L77)
+[socket-v2-sdk/src/baseSocket.ts:77](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L77)
 
 ---
 
@@ -292,7 +292,7 @@ BaseSocket.getTokenList
 
 #### Defined in
 
-[socket-v2-sdk/src/baseSocket.ts:110](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L110)
+[socket-v2-sdk/src/baseSocket.ts:110](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/baseSocket.ts#L110)
 
 ---
 
@@ -316,4 +316,4 @@ An iterator that will yield each transaction required in the route
 
 #### Defined in
 
-[socket-v2-sdk/src/socket.ts:14](https://github.com/rugamoto/socket-v2-sdk/blob/b3c3e8d/src/socket.ts#L14)
+[socket-v2-sdk/src/socket.ts:14](https://github.com/SocketDotTech/socket-v2-sdk/blob/b3c3e8d/src/socket.ts#L14)

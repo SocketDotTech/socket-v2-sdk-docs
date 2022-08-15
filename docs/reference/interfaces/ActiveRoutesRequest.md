@@ -24,7 +24,7 @@ Id of sending chain
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:13](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L13)
+[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:13](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L13)
 
 ---
 
@@ -36,7 +36,7 @@ Address of token on source chain.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:17](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L17)
+[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:17](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L17)
 
 ---
 
@@ -48,7 +48,7 @@ Number of active routes to return in one API call.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:9](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L9)
+[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:9](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L9)
 
 ---
 
@@ -60,7 +60,7 @@ Offset for fetching active routes.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:7](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L7)
+[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:7](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L7)
 
 ---
 
@@ -72,7 +72,7 @@ Status of the route. The route will only be marked completed if all the user txs
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:11](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L11)
+[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:11](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L11)
 
 ---
 
@@ -84,7 +84,7 @@ Sort param for routes.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:5](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L5)
+[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:5](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L5)
 
 ---
 
@@ -96,7 +96,7 @@ Id of destination chain.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:15](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L15)
+[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:15](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L15)
 
 ---
 
@@ -108,7 +108,7 @@ Token address on destination chain.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:19](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L19)
+[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:19](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L19)
 
 ---
 
@@ -120,4 +120,4 @@ Address of user starting the route.
 
 #### Defined in
 
-[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:3](https://github.com/rugamoto/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L3)
+[socket-v2-sdk/src/client/models/ActiveRoutesRequest.ts:3](https://github.com/SocketDotTech/socket-v2-sdk/blob/91d9fe3/src/client/models/ActiveRoutesRequest.ts#L3)
