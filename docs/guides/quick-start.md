@@ -27,7 +27,7 @@ yarn add @socket.tech/socket-v2-sdk
 Import the socket class and create an instance
 
 ```ts
-import { Socket } from "@socket.tech/v2-sdk";
+import { Socket } from "@socket.tech/socket-v2-sdk";
 
 const socket = new Socket({
   apiKey: "<API_KEY_HERE",
